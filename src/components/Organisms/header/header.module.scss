@@ -1,0 +1,37 @@
+.header__wrap {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #050402;
+}
+
+.header__content {
+  min-width: 320px;
+  padding: 20px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu__btn {
+  padding-right: 38px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #faf6f2;
+  position: relative;
+  font-family: "Jost";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    background-image: url("./../../../assets/svg/mob-menu-icon.svg");
+  }
+}
