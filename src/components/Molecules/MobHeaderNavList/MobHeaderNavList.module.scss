@@ -21,6 +21,10 @@
   color: #faf6f2;
   text-decoration: none;
   background-color: #050402;
+
+  &:hover {
+    color: #bb8c5f;
+  }
 }
 
 .nav_list__btn {
@@ -48,6 +52,10 @@
     transform: rotate(90deg);
     background: url('./../../../assets/svg/Arrow2.svg');
     transition: 1s;
+  }
+
+  &:hover {
+    color: #bb8c5f;
   }
 }
 

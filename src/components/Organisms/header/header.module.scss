@@ -22,7 +22,7 @@
 
 .header__col_one {
   min-width: 278px;
-
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #050402;
@@ -38,16 +38,36 @@
 
 .nav_menu__btn {
   padding: 0;
+
+  background-color: #050402;
+}
+
+.header__content {
+  min-width: 320px;
+  padding: 20px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu__btn {
+  padding-right: 38px;
+
   outline: none;
   background-color: transparent;
   border: none;
   color: #faf6f2;
   position: relative;
+
   font-family: 'Jost';
+
+  font-family: 'Jost';
+
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +181,7 @@
   }
 
   .header__content {
-    padding: 14px 0 0px 0;
+    padding: 14px 0 0 0;
     width: 1216px;
     margin: 0 auto;
   }
@@ -197,7 +217,6 @@
 
   .header__sosials {
     margin-top: 23px;
-
     display: block;
   }
 
@@ -242,6 +261,7 @@
 
   .desk__header_line {
     display: block;
+    width: 100%;
   }
 
   .desk_search {

@@ -25,7 +25,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25.5px;
-
   text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: #bb8c5f;
+  }
 }
