@@ -1,0 +1,21 @@
+.brand_list {
+  height: 416px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.brand_item_links {
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+  color: #3e424b;
+  text-decoration: none;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+}

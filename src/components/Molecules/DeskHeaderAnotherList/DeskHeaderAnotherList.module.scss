@@ -1,0 +1,43 @@
+.desk__header_nav_list__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.item {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &::before {
+    display: none;
+    content: '';
+    position: absolute;
+    background: url('./../../../assets/svg/Line_hover.svg') center center
+      no-repeat;
+    width: 10px;
+    height: 20px;
+    bottom: -9px;
+    left: 40%;
+  }
+
+  &:hover::before {
+    display: block;
+  }
+
+  &:hover a {
+    color: #bb8c5f;
+  }
+}
+
+.links {
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+  color: #faf6f2;
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.mail_links__container {
+  margin: 30px auto 0 20px;
+}
+
+.mail_links {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #faf6f2;
+  text-decoration: navajowhite;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  position: relative;
+  padding-left: 38px;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+}
+
+.mail_svg {
+  margin-right: 10px;
+}
+
+.mail_links:hover .mail_svg path {
+  fill: #bb8c5f;
+}

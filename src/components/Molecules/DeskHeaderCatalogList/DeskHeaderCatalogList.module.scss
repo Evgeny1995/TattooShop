@@ -1,0 +1,122 @@
+.desk_header_catalog_list_container {
+  position: absolute;
+  top: 56px;
+  width: 618px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d0d0d0;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f5f5f5;
+    transform: rotate(45deg);
+    top: -10px;
+    left: 47px;
+  }
+}
+
+.big_size_container {
+  width: 1183px;
+  height: 592px;
+}
+
+.header_catalog_list_nav_container {
+  height: 85px;
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 0 0 7px 7px;
+  padding: 30px 324px 30px 50px;
+  width: 100%;
+}
+
+.header_catalog_list_nav_content {
+  display: flex;
+  width: 300px;
+  justify-content: left;
+}
+
+.btn_nav {
+  background-color: transparent;
+  color: #050402;
+  border: none;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.5px;
+  position: relative;
+  padding-bottom: 28px;
+  width: 106px;
+  margin-right: 30px;
+  cursor: pointer;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+}
+
+.btn_nav_hover {
+  color: #bb8c5f;
+  border-bottom: 1px solid #bb8c5f;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    bottom: -3px;
+    left: -6px;
+    background-color: #bb8c5f;
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    bottom: -3px;
+    right: -6px;
+    background-color: #bb8c5f;
+    transform: rotate(45deg);
+  }
+}
+
+.nested_list_container {
+  background-color: #f5f5f5;
+  border-radius: 7px 7px 0 0;
+  margin-top: 1px;
+  padding: 40px 1px 50px 50px;
+  width: 100%;
+}
+
+.nested_list_category_container {
+}
+
+.nested_list {
+  display: flex;
+  flex-direction: column;
+  height: 235px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.nested_list_color {
+  color: #3e424b;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+}
+
+.brands_list_container {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}

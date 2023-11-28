@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list_two {
+  display: flex;
+  flex-direction: column;
+  height: 235px;
+  flex-wrap: wrap;
+}
+
+.nested_item {
+  margin-bottom: 13px;
+  background-color: transparent;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.nested_links {
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+
+  text-decoration: none;
+  cursor: pointer;
+}

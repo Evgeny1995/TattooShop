@@ -1,0 +1,47 @@
+.socials_number__current {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.socials_number__text {
+  width: 145px;
+  color: #faf6f2;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.socials__list {
+  list-style: none;
+  display: flex;
+}
+
+.socials_list__item {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.desk_item {
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: #faf6f2;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+}
+
+.mob_item {
+}
+
+@media (min-width: 1920px) {
+  .socials_list__hover p {
+    color: #bb8c5f;
+  }
+}
