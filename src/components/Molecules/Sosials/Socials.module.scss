@@ -25,23 +25,29 @@
 }
 
 .desk_item {
-  font-family: Jost;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  color: #faf6f2;
-
-  &:hover {
-    color: #bb8c5f;
-  }
-}
-
-.mob_item {
+  display: none;
 }
 
 @media (min-width: 1920px) {
   .socials_list__hover p {
     color: #bb8c5f;
+  }
+
+  .mob_item {
+    display: none;
+  }
+
+  .desk_item {
+    display: block;
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #faf6f2;
+
+    &:hover {
+      color: #bb8c5f;
+    }
   }
 }

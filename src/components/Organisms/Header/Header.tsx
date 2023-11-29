@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './header.module.scss';
+import styles from './Header.module.scss';
 import HeaderMobMenu from '../../Molecules/HeaderMobMenu/HeaderNavMobMenu.tsx';
 import menuIcon from './../../../assets/svg/mob-menu-icon.svg';
 import closeMenuIcon from './../../../assets/svg/mobMenuCloseIcon.svg';
@@ -110,7 +110,9 @@ const Header: React.FC = () => {
             <Input placeholder={'Search'} className={styles.inp} />
           </div>
           <div className={styles.desk_another_list_container}>
-            <DeskHeaderAnotherList />
+            <DeskHeaderAnotherList
+              listLinksHoverStyle={styles.list_Links_Hover_Style}
+            />
           </div>
         </div>
       </div>

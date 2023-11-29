@@ -1,10 +1,12 @@
 import React from 'react';
 
-import Header from '../../Organisms/header/header.tsx';
+import Header from '../../Organisms/Header/Header.tsx';
+import Footer from '../../Organisms/Footer/Footer.tsx';
 
 const Home: React.FC = () => (
   <div>
     <Header />
+    <Footer />
   </div>
 );
 

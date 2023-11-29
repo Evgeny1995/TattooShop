@@ -1,0 +1,21 @@
+.header_logotype {
+  display: none;
+}
+
+.logo_container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1920px) {
+  .header_logotype {
+    display: block;
+  }
+
+  .mob_tab_logotype {
+    display: none;
+  }
+}

@@ -1,7 +1,14 @@
 import React from 'react';
 import styles from './DeskHeaderAnotherList.module.scss';
 
-const DeskHeaderAnotherList: React.FC = () => {
+export type props = {
+  listStyle?: string;
+  listItemStyle?: string;
+  listLinksStyle?: string;
+  listLinksHoverStyle?: string;
+};
+
+const DeskHeaderAnotherList: React.FC<props> = (props) => {
   interface IDeskNavList {
     id: string;
     title: string;
@@ -16,10 +23,25 @@ const DeskHeaderAnotherList: React.FC = () => {
   ];
 
   return (
-    <ul className={styles.desk__header_nav_list__container}>
+    <ul
+      className={[
+        styles.desk__header_nav_list__container,
+        props.listStyle,
+      ].join(' ')}
+    >
       {deskNavListData.map((item) => (
-        <li key={item.id} className={styles.item}>
-          <a className={styles.links} href="">
+        <li
+          key={item.id}
+          className={[
+            styles.item,
+            props.listLinksHoverStyle,
+            props.listItemStyle,
+          ].join(' ')}
+        >
+          <a
+            className={[styles.links, props.listLinksStyle].join(' ')}
+            href="#"
+          >
             {item.title}
           </a>
         </li>

@@ -11,22 +11,6 @@
   align-items: center;
   position: relative;
 
-  &::before {
-    display: none;
-    content: '';
-    position: absolute;
-    background: url('./../../../assets/svg/Line_hover.svg') center center
-      no-repeat;
-    width: 10px;
-    height: 20px;
-    bottom: -9px;
-    left: 40%;
-  }
-
-  &:hover::before {
-    display: block;
-  }
-
   &:hover a {
     color: #bb8c5f;
   }
