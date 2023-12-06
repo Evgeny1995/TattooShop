@@ -1,0 +1,42 @@
+.swiper-pagination {
+  margin: 0 auto 45px auto;
+}
+
+.swiper-pagination-bullet {
+  color: transparent;
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #524336;
+  border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+  color: transparent;
+  background-color: transparent;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: #bb8c5f;
+  }
+}
+
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-button-prev {
+  display: none;
+}
+
+@media (min-width: 1924px) {
+  .mySwiper {
+    height: 600px;
+  }
+}

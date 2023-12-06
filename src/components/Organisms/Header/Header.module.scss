@@ -1,6 +1,8 @@
 .header__wrap {
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  z-index: 1000;
 }
 
 .header__col_two {
@@ -13,7 +15,7 @@
 
 .header__content {
   margin: 0 auto;
-  min-width: 319px;
+  min-width: 320px;
   padding: 20px 22px;
   display: flex;
   flex-direction: column;
@@ -51,23 +53,17 @@
 }
 
 .nav_menu__btn {
-  padding-right: 38px;
-
   outline: none;
   background-color: transparent;
   border: none;
   color: #faf6f2;
   position: relative;
-
   font-family: 'Jost';
-
   font-family: 'Jost';
-
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,5 +266,23 @@
   }
   .desk_another_list_container {
     padding-bottom: 4px;
+  }
+
+  .list_Links_Hover_Style {
+    &::before {
+      display: none;
+      content: '';
+      position: absolute;
+      background: url('./../../../assets/svg/Line_hover.svg') center center
+        no-repeat;
+      width: 10px;
+      height: 20px;
+      bottom: -9px;
+      left: 40%;
+    }
+
+    &:hover::before {
+      display: block;
+    }
   }
 }

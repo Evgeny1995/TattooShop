@@ -6,7 +6,7 @@
   width: 100%;
   opacity: 0;
   transform: translateY(-1500px);
-  position: relative;
+  position: absolute;
 }
 
 .show {
@@ -17,7 +17,7 @@
   height: auto;
   transform: translateY(0);
   transition: 1s;
-  position: relative;
+  position: absolute;
 }
 
 .input_container {
@@ -25,14 +25,8 @@
   margin: 0px auto 40px 20px;
 }
 
-.working__hours {
-  color: #636b78;
-  font-family: Jost;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25.5px;
-  margin: 0 auto 0 20px;
+.time_work_position {
+  margin-left: 20px;
 }
 
 .mail_links__container {
