@@ -6,7 +6,7 @@
   width: 100%;
   opacity: 0;
   transform: translateY(-1500px);
-  position: relative;
+  position: absolute;
 }
 
 .show {
@@ -17,7 +17,7 @@
   height: auto;
   transform: translateY(0);
   transition: 1s;
-  position: relative;
+  position: absolute;
 }
 
 .input_container {
