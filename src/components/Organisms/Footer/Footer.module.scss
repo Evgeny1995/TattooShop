@@ -131,8 +131,8 @@
 
 @media (min-width: 1920px) {
   .footer_container {
-    margin: 0px auto 0 auto;
-    padding: 139px 0px 120px 0px;
+    margin: 0 auto 0 auto;
+    padding: 139px 0 120px 0;
     background-color: #050402;
     display: flex;
     flex-direction: row;
@@ -185,7 +185,7 @@
   .footer_navigation {
     width: 768px;
     margin: 0 auto;
-    padding: 0px 143px 0 0;
+    padding: 0 143px 0 0;
     display: flex;
     gap: 110px;
     justify-content: space-between;
@@ -193,7 +193,7 @@
 
   .footer_time_contacts_container {
     width: 455px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0 0 0 102px;
   }
 
