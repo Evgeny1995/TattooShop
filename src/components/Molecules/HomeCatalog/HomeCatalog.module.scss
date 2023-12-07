@@ -1,0 +1,175 @@
+.home_catalog_container {
+  background-color: #eeeeee;
+  width: 100%;
+  margin: 0px auto 0 auto;
+}
+
+.home_catalog_content {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 67px 0 62px 0;
+}
+
+.home_catalog_title {
+  width: 282px;
+  margin: 0 auto 30px auto;
+  font-family: Forum;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.5px;
+  color: #3e424b;
+}
+
+.home_catalog_list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list_item {
+  position: relative;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #f9f9f9;
+}
+
+.item_link {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_title {
+  position: absolute;
+  top: 40px;
+  left: 72px;
+  width: auto;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  color: #3e424b;
+}
+
+.item_img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto 0px auto;
+}
+
+.btn_view_catalog {
+  width: 310px;
+  margin: 10px auto 0 auto;
+  padding: 0 17px 0 17px;
+}
+
+.btn_style {
+  height: 70px;
+  background-color: #eeeeee;
+  border: 2px solid #bb8c5f !important;
+  color: #bb8c5f;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 26px;
+    left: -17px;
+    width: 18px;
+    height: 18px;
+    background: url('./../../../assets/svg/button/triangleWhitebg.svg') center
+      center no-repeat;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 26px;
+    right: -17px;
+    width: 18px;
+    height: 18px;
+    transform: rotate(180deg);
+    background: url('./../../../assets/svg/button/triangleWhitebg.svg') center
+      center no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .home_catalog_content {
+    width: 728px;
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+  }
+
+  .home_catalog_title {
+    width: 728px;
+    margin: 0 auto 40px auto;
+    font-family: Forum;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+  }
+
+  .home_catalog_list {
+    width: 728px;
+    margin: 0 auto 40px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .list_item {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .home_catalog_content {
+    width: 1217px;
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+  }
+
+  .home_catalog_title {
+    width: 190px;
+    margin: 0 auto 50px auto;
+    font-family: Forum;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+  }
+
+  .home_catalog_list {
+    width: 1217px;
+    margin: 0 auto 40px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .item_title {
+    position: absolute;
+    top: 24px;
+    left: 26px;
+    width: auto;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    color: #3e424b;
+  }
+}
