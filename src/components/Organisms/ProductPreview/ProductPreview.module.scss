@@ -57,16 +57,17 @@
 
 .btn_style {
   height: 70px;
-  background-color: #bb8c5f;
+  background-color: #524336;
+  border: 2px solid #bb8c5f !important;
 
   &:before {
     content: '';
     position: absolute;
     top: 26px;
-    left: -14px;
-    width: 15px;
+    left: -17px;
+    width: 18px;
     height: 18px;
-    background: url('./../../../assets/svg/button/Slice 2.svg') center center
+    background: url('./../../../assets/svg/button/triangle.svg') center center
       no-repeat;
   }
 
@@ -74,11 +75,11 @@
     content: '';
     position: absolute;
     top: 26px;
-    right: -14px;
-    width: 15px;
+    right: -17px;
+    width: 18px;
     height: 18px;
     transform: rotate(180deg);
-    background: url('./../../../assets/svg/button/Slice 2.svg') center center
+    background: url('./../../../assets/svg/button/triangle.svg') center center
       no-repeat;
   }
 }

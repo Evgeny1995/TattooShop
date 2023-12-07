@@ -35,8 +35,57 @@
   display: none;
 }
 
-@media (min-width: 1924px) {
+@media (min-width: 1920px) {
   .mySwiper {
-    height: 600px;
+    height: 700px;
+    width: 1568px;
+    position: relative;
+  }
+  .swiper-wrapper {
+    margin: 0 auto;
+    position: relative;
+  }
+  .swiper-pagination {
+    position: absolute;
+    top: 42.5% !important;
+    right: 12% !important;
+  }
+
+  .swiper-pagination-bullet {
+    margin-bottom: 16px !important;
+  }
+
+  .swiper-button-next {
+    display: block;
+
+    position: absolute;
+    top: 408px;
+    right: 174px;
+    width: 42px;
+    height: 65px;
+    background: url('./../../../assets/svg/button/desk-slider-btn.svg') center
+      center no-repeat;
+    transform: rotate(180deg);
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .swiper-button-prev {
+    display: block;
+
+    position: absolute;
+    top: 159px;
+    right: 174px;
+    left: auto;
+    width: 42px;
+    height: 65px;
+    background: url('./../../../assets/svg/button/desk-slider-btn.svg') center
+      center no-repeat;
+
+    &:after {
+      display: none;
+    }
   }
 }
