@@ -1,3 +1,8 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
 .swiper-pagination {
   margin: 0 auto 45px auto;
 }
@@ -37,8 +42,8 @@
 
 @media (min-width: 1920px) {
   .mySwiper {
-    height: 700px;
-    width: 1568px;
+    //height: 700px;
+    //width: 1568px;
     position: relative;
   }
   .swiper-wrapper {
@@ -55,37 +60,64 @@
     margin-bottom: 16px !important;
   }
 
-  .swiper-button-next {
-    display: block;
+  //.swiper-button-next {
+  //  display: block;
+  //
+  //  position: absolute;
+  //  top: 408px;
+  //  right: 174px;
+  //  width: 42px;
+  //  height: 65px;
+  //  background: url('./../../../assets/svg/button/desk-slider-btn.svg') center
+  //    center no-repeat;
+  //  transform: rotate(180deg);
+  //
+  //  &:after {
+  //    display: none;
+  //  }
+  //}
+  //
+  //.swiper-button-prev {
+  //  display: block;
+  //
+  //  position: absolute;
+  //  top: 159px;
+  //  right: 174px;
+  //  left: auto;
+  //  width: 42px;
+  //  height: 65px;
+  //  background: url('./../../../assets/svg/button/desk-slider-btn.svg') center
+  //    center no-repeat;
+  //
+  //  &:after {
+  //    display: none;
+  //  }
+  //}
 
-    position: absolute;
-    top: 408px;
-    right: 174px;
-    width: 42px;
-    height: 65px;
+  .product_preview_slider_btn_prev {
     background: url('./../../../assets/svg/button/desk-slider-btn.svg') center
       center no-repeat;
-    transform: rotate(180deg);
-
-    &:after {
-      display: none;
-    }
+    width: 40px;
+    height: 63px;
+    position: absolute;
+    top: 138px;
+    right: 217px;
+    z-index: 1;
+    outline: none;
+    border: none;
   }
 
-  .swiper-button-prev {
-    display: block;
-
-    position: absolute;
-    top: 159px;
-    right: 174px;
-    left: auto;
-    width: 42px;
-    height: 65px;
+  .product_preview_slider_btn_next {
     background: url('./../../../assets/svg/button/desk-slider-btn.svg') center
       center no-repeat;
-
-    &:after {
-      display: none;
-    }
+    width: 40px;
+    height: 63px;
+    position: absolute;
+    top: 385px;
+    transform: rotate(180deg);
+    right: 217px;
+    z-index: 1;
+    outline: none;
+    border: none;
   }
 }

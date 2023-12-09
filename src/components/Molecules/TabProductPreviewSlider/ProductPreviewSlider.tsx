@@ -53,15 +53,18 @@ const ProductPreviewSlider: React.FC = () => {
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
+        navigation={{
+          prevEl: '.product_preview_slider_btn_prev',
+          nextEl: '.product_preview_slider_btn_next',
+        }}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         {productPreviewSliderArr.map((slide) => (
-          <SwiperSlide>
+          <SwiperSlide key={slide.id}>
             <div className={styles.slide_container}>
               <h2 className={styles.slide_title}>{slide.title}</h2>
               <p className={styles.slide_text}>{slide.text}</p>
@@ -73,6 +76,8 @@ const ProductPreviewSlider: React.FC = () => {
             </div>
           </SwiperSlide>
         ))}
+        <button className="product_preview_slider_btn_prev"></button>
+        <button className="product_preview_slider_btn_next"></button>
       </Swiper>
     </div>
   );

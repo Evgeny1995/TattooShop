@@ -1,0 +1,42 @@
+.home_popular_brands_btn_prev {
+  border: 2px solid #bb8c5f;
+  width: 50px;
+  height: 50px;
+  top: 77px;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    background: url('./../../../assets/svg/button/beforeTriangle.svg') center
+      center no-repeat;
+  }
+}
+
+.home_popular_brands_btn_next {
+  border: 2px solid #bb8c5f;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 77px;
+  right: 0;
+  //z-index: 1;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    background: url('./../../../assets/svg/button/beforeTriangle.svg') center
+      center no-repeat;
+    transform: rotate(180deg);
+  }
+}

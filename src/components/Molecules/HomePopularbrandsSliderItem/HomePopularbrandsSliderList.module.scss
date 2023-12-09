@@ -1,0 +1,24 @@
+.slide_list {
+  width: 1216px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1216px;
+    height: 204px;
+    background: url('./../../../assets/svg/popularBrands/desk.svg');
+  }
+}
+
+.slide_list_item {
+  width: 211px;
+  height: 82px;
+}

@@ -1,0 +1,136 @@
+.home_popular_brands_container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+.home_popular_brands_content {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 20px;
+}
+
+.popular_brands_title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular_brands_title {
+  font-family: Forum;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.5px;
+  color: #3e424b;
+}
+
+.popular_brands_link_all {
+  color: #3e424b;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.popular_brands_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 30px;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    top: -1px;
+    left: 0;
+    background: url('./../../../assets/svg/popularBrands/Group.svg') center
+      center no-repeat;
+  }
+}
+
+.list_item {
+  width: 83px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_links {
+  width: 83px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .home_popular_brands_content {
+    width: 768px;
+  }
+
+  .popular_brands_title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .popular_brands_link_all {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .popular_brands_list {
+    gap: 40px;
+    margin-top: 40px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 728px;
+      height: 210px;
+      top: -1px;
+      left: 0;
+      background: url('./../../../assets/svg/popularBrands/tab.svg') center
+        center no-repeat;
+    }
+  }
+
+  .list_item {
+    width: 216px;
+    height: 84px;
+  }
+
+  .item_links {
+    width: 216px;
+    height: 84px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .popular_brands_list {
+    display: none;
+  }
+
+  .home_popular_brands_content {
+    width: 1376px;
+    padding: 120px 0;
+  }
+
+  .popular_brands_title_container {
+    margin: 0 80px 0 80px;
+  }
+
+  .popular_brands_title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}

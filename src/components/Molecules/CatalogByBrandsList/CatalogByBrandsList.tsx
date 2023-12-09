@@ -74,7 +74,10 @@ const CatalogByBrandsList: React.FC<props> = (props) => {
   return (
     <ul className={[styles.brand_list, props.positionList].join(' ')}>
       {brandsArr.map((item) => (
-        <li className={[styles.brand_list_item, props.positionItem].join(' ')}>
+        <li
+          key={item.id}
+          className={[styles.brand_list_item, props.positionItem].join(' ')}
+        >
           <a
             className={[styles.brand_item_links, props.color].join(' ')}
             href="#"
