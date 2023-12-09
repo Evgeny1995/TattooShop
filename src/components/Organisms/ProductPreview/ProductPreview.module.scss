@@ -94,5 +94,17 @@
   }
   .product_preview_Slider_container {
     display: block;
+    height: 536px;
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1920px) {
+  .product_preview_Slider_container {
+    display: block;
+    height: 700px;
+    width: 1920px;
+    margin: 0 auto;
   }
 }

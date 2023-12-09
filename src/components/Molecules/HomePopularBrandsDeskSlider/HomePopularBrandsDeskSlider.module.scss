@@ -1,0 +1,13 @@
+.slider_container {
+  display: none;
+}
+
+@media (min-width: 1920px) {
+  .slider_container {
+    width: 1376px;
+    margin: 30px auto 0 auto;
+    display: block;
+    padding: 0 80px;
+    position: relative;
+  }
+}
