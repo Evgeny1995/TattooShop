@@ -1,0 +1,191 @@
+.seasonal_offers_container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+
+.seasonal_offers_content {
+}
+
+.seasonal_offers_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 20px;
+}
+
+.list_item {
+  width: 320px;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:nth-child(1) {
+    background: url('./../../../assets/img/HomeSesonalOffers/paintsNith.png')
+      center center no-repeat;
+  }
+
+  &:nth-child(2) {
+    background: url('./../../../assets/img/HomeSesonalOffers/FoxViper.png')
+      center center no-repeat;
+  }
+}
+
+.item_title {
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  color: #faf6f2;
+  margin: 30px auto 0 20px;
+  width: 64%;
+}
+
+.item_links_container {
+  margin: auto auto 30px 20px;
+  padding-bottom: 2px;
+  width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bb8c5f;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #bb8c5f;
+    top: 29px;
+    left: 0;
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #bb8c5f;
+    top: 29px;
+    right: 0;
+    transform: rotate(45deg);
+  }
+}
+
+.item_links {
+  color: #bb8c5f;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .list_item {
+    width: 374px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:nth-child(1) {
+      background: url('./../../../assets/img/HomeSesonalOffers/tab/paintsNith.png')
+        center center no-repeat;
+      background-size: 374px 300px;
+      transition: background-size 0.5s ease-in-out;
+    }
+
+    &:nth-child(1):hover {
+      background-size: 450px 350px;
+    }
+
+    &:nth-child(2) {
+      background: url('./../../../assets/img/HomeSesonalOffers/tab/FoxViper.png')
+        center center no-repeat;
+      background-size: 374px 300px;
+      transition: background-size 0.5s ease-in-out;
+    }
+
+    &:nth-child(2):hover {
+      background-size: 450px 350px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  //@keyframes backgrond-size-animation {
+  //  0% {
+  //    background-size: 949.5px 470px;
+  //  }
+  //  100% {
+  //    background-size: 1100px 530px;
+  //  }
+  //}
+
+  .list_item {
+    width: 949.5px;
+    height: 470px;
+    transition: 2s;
+
+    &:nth-child(1) {
+      background: url('./../../../assets/img/HomeSesonalOffers/desk/paintsNith.png')
+        center center no-repeat;
+      background-size: 945.5px 470px;
+      transition: background-size 0.5s ease-in-out;
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+
+    &:nth-child(1):hover {
+      background-size: 1100px 530px;
+    }
+
+    &:nth-child(1) .item_links_container {
+      margin: 0 0 50px 0;
+    }
+
+    &:nth-child(2) {
+      background: url('./../../../assets/img/HomeSesonalOffers/desk/FoxViper.png')
+        center center no-repeat;
+      background-size: 945.5px 470px;
+      transition: background-size 0.5s ease-in-out;
+    }
+
+    &:nth-child(2) .item_title {
+      width: 24%;
+      margin-left: 50px;
+    }
+
+    &:nth-child(2) .item_links_container {
+      margin: 0 0 50px 50px;
+    }
+
+    &:nth-child(2):hover {
+      background-size: 1100px 530px;
+    }
+
+    //&:hover {
+    //  animation-name: backgrond-size-animation;
+    //  animation-duration: 2s;
+    //  animation-timing-function: ease-in-out;
+    //  animation-iteration-count: 1;
+    //}
+  }
+
+  .item_title {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 40px 0 0 0;
+  }
+}
