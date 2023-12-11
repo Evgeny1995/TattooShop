@@ -35,6 +35,14 @@
   font-weight: 400;
   line-height: 21px;
   text-decoration: none;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+
+  &:active {
+    color: #bb8c5f;
+  }
 }
 
 .popular_brands_list {

@@ -6,6 +6,7 @@ import ProductPreview from '../../Organisms/ProductPreview/ProductPreview.tsx';
 import HomeCatalog from '../../Molecules/HomeCatalog/HomeCatalog.tsx';
 import HomeSeasonalOffers from '../../Molecules/HomeSeasonalOffers/HomeSeasonalOffers.tsx';
 import HomePopularBrands from '../../Molecules/HomePopularBrands/HomePopularBrands.tsx';
+import HomeAboutCompany from '../../Molecules/HomeAboutCompany/HomeAboutCompany.tsx';
 
 const Home: React.FC = () => (
   <div>
@@ -14,6 +15,7 @@ const Home: React.FC = () => (
     <HomeCatalog />
     <HomeSeasonalOffers />
     <HomePopularBrands />
+    <HomeAboutCompany />
     <Footer />
   </div>
 );
