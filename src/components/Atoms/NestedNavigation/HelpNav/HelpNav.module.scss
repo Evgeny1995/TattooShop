@@ -1,0 +1,68 @@
+.promo_codes_nav_wrap {
+  width: 100%;
+  margin: 20px auto 0 auto;
+  padding-left: 20px;
+}
+
+.promo_codes_nav_container {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.main_link {
+  color: #d0d0d0;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+  text-decoration: none;
+
+  &:hover {
+    color: #bb8c5f;
+  }
+
+  &:active {
+    color: #d0d0d0;
+  }
+}
+
+.promo_codes_link {
+  color: #636b78;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+  text-decoration: none;
+}
+
+.minor {
+  color: #d0d0d0;
+  font-family: Jost;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+  margin: 0 10px 0 10px;
+}
+
+@media (min-width: 768px) {
+  .promo_codes_nav_wrap {
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media (min-width: 1235px) {
+  .promo_codes_nav_wrap {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .promo_codes_nav_wrap {
+    margin: 50px auto 0 auto;
+    padding: 0;
+  }
+}
