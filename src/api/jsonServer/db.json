@@ -1,0 +1,52 @@
+{
+  "catalCategoryNestedData": [
+    {
+      "id": "1",
+      "title": "New"
+    },
+    {
+      "id": "2",
+      "title": "Tattoo kits"
+    },
+    {
+      "id": "3",
+      "title": "Car tattoo"
+    },
+    {
+      "id": "4",
+      "title": "Tattoo paints"
+    },
+    {
+      "id": "5",
+      "title": "Tattoo needles"
+    },
+    {
+      "id": "6",
+      "title": "Tattoo holders"
+    },
+    {
+      "id": "7",
+      "title": "Tattoo tips"
+    },
+    {
+      "id": "8",
+      "title": "Power supplies"
+    },
+    {
+      "id": "9",
+      "title": "Pedals and wires"
+    },
+    {
+      "id": "10",
+      "title": "Accessories"
+    },
+    {
+      "id": "11",
+      "title": "Printers and tablets"
+    },
+    {
+      "id": "12",
+      "title": "Сonsumables"
+    }
+  ]
+}

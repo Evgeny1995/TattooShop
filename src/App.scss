@@ -6,7 +6,7 @@
   src:
     local('Jost'),
     local('Jost'),
-    url('src/assets/fonts/Jost-Regular400.woff2') format('woff2');
+    url('./assets/fonts/Jost-Regular400.woff2') format('woff2');
 }
 
 @font-face {
@@ -17,7 +17,7 @@
   src:
     local('Jost'),
     local('Jost'),
-    url('src/assets/fonts/Jost-Medium500.woff2') format('woff2');
+    url('./assets/fonts/Jost-Medium500.woff2') format('woff2');
 }
 
 @font-face {
@@ -28,18 +28,7 @@
   src:
     local('Jost'),
     local('Jost'),
-    url('src/assets/fonts/Jost-SemiBold600.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src:
-    local('Jost'),
-    local('Jost'),
-    url('src/assets/fonts/Jost-Bold700.woff2') format('woff2');
+    url('./assets/fonts/Jost-Bold700.woff2') format('woff2');
 }
 
 @font-face {
@@ -49,8 +38,7 @@
   font-display: swap;
   src:
     local('Forum'),
-    local('Forum'),
-    url('src/assets/fonts/Forum.woff2') format('woff2');
+    url('./assets/fonts/Forum.woff2') format('woff2');
 }
 
 .main_wrap {
