@@ -19,7 +19,7 @@ const DeskHeaderAnotherList: React.FC<props> = (props) => {
   const deskNavListData: IDeskNavList[] = [
     { id: '1', title: 'Promo codes', address: 'promo-codes' },
     { id: '2', title: 'Sales', address: '*' },
-    { id: '3', title: 'Help', address: '*' },
+    { id: '3', title: 'Help', address: 'help' },
     { id: '4', title: 'About us', address: '*' },
     { id: '5', title: 'Contacts', address: '*' },
   ];
