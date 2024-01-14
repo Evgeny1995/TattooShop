@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './HeaderCatalogNestedList.module.scss';
+import { fetchNestedList } from '../../../api/Requests/Requests.ts';
 
 // export interface InestedListVar {
 //   VARIANTONE: string;
@@ -21,6 +22,10 @@ export type props = {
 };
 
 const HeaderCatalogNestedList: React.FC<props> = (props) => {
+  useEffect(() => {
+    console.log(fetchNestedList());
+  }, []);
+
   interface ICatalCategoryNested {
     id: string;
     title: string;

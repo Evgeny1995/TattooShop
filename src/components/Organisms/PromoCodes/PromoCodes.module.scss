@@ -1,0 +1,56 @@
+.promo_codes_wrap {
+  width: 100%;
+  background-color: #eeeeee;
+  margin: 0 auto;
+}
+
+.promo_codes_title_container {
+  padding-left: 20px;
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.promo_codes_title {
+  color: #3e424b;
+  font-family: Forum;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 20px auto 30px auto;
+  width: 100%;
+  max-width: 1216px;
+}
+
+@media (min-width: 768px) {
+  .promo_codes_title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 1235px) {
+  .promo_codes_title_container {
+    padding: 0px;
+  }
+  .promo_codes_title {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .promo_codes_title {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 30px auto 40px auto;
+  }
+
+  .promo_codes_title_container {
+    padding-left: 0px;
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+  }
+}

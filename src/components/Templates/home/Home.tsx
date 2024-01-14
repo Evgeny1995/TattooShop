@@ -7,6 +7,8 @@ import HomeCatalog from '../../Molecules/HomeCatalog/HomeCatalog.tsx';
 import HomeSeasonalOffers from '../../Molecules/HomeSeasonalOffers/HomeSeasonalOffers.tsx';
 import HomePopularBrands from '../../Molecules/HomePopularBrands/HomePopularBrands.tsx';
 import HomeAboutCompany from '../../Molecules/HomeAboutCompany/HomeAboutCompany.tsx';
+import HomeReview from '../../Molecules/HomeReview/HomeReview.tsx';
+import HomeNewsSubscription from '../../Molecules/HomeNewsSubscription/HomeNewsSubscription.tsx';
 
 const Home: React.FC = () => (
   <div>
@@ -16,6 +18,8 @@ const Home: React.FC = () => (
     <HomeSeasonalOffers />
     <HomePopularBrands />
     <HomeAboutCompany />
+    <HomeReview />
+    <HomeNewsSubscription />
     <Footer />
   </div>
 );

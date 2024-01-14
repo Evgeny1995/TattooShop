@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './MobHeaderNavList.module.scss';
 import HeaderCatalogNestedList from '../HeaderCatalognestedList/HeaderCatalogNestedList.tsx';
+import { Link } from 'react-router-dom';
 
 const MobHeaderNavList: React.FC = () => {
   const [catalogList, setCatalogList] = useState<boolean>(true);
@@ -48,39 +49,39 @@ const MobHeaderNavList: React.FC = () => {
         </div>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[1].title}
-        </a>
+        </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link to="/promo-codes" className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[2].title}
-        </a>
+        </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[3].title}
-        </a>
+        </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[4].title}
-        </a>
+        </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[5].title}
-        </a>
+        </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[6].title}
-        </a>
+        </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <a href="#" className={styles.mob_menu__nav_links}>
+        <Link className={styles.mob_menu__nav_links}>
           {mobCatalCategoryData[7].title}
-        </a>
+        </Link>
       </li>
     </ul>
   );

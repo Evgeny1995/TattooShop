@@ -1,0 +1,51 @@
+.home_review_container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home_review_content {
+  width: 100%;
+  max-width: 1486px;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //align-items: center;
+}
+
+.home_review_title_container {
+  width: 100%;
+  max-width: 768px;
+  padding: 0 20px;
+  margin: 0 auto 40px auto;
+}
+
+.home_review_title {
+  color: #3e424b;
+  font-family: Forum;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.5px;
+}
+
+@media (min-width: 768px) {
+  .home_review_title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .home_review_title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .home_review_content {
+    max-width: 1920px;
+  }
+}

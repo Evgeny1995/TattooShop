@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './DeskHeaderAnotherList.module.scss';
+import { Link } from 'react-router-dom';
 
 export type props = {
   listStyle?: string;
@@ -12,14 +13,15 @@ const DeskHeaderAnotherList: React.FC<props> = (props) => {
   interface IDeskNavList {
     id: string;
     title: string;
+    address?: string;
   }
 
   const deskNavListData: IDeskNavList[] = [
-    { id: '1', title: 'Promo codes' },
-    { id: '2', title: 'Sales' },
-    { id: '3', title: 'Help' },
-    { id: '4', title: 'About us' },
-    { id: '5', title: 'Contacts' },
+    { id: '1', title: 'Promo codes', address: 'promo-codes' },
+    { id: '2', title: 'Sales', address: '*' },
+    { id: '3', title: 'Help', address: '*' },
+    { id: '4', title: 'About us', address: '*' },
+    { id: '5', title: 'Contacts', address: '*' },
   ];
 
   return (
@@ -38,12 +40,12 @@ const DeskHeaderAnotherList: React.FC<props> = (props) => {
             props.listItemStyle,
           ].join(' ')}
         >
-          <a
+          <Link
             className={[styles.links, props.listLinksStyle].join(' ')}
-            href="#"
+            to={'/' + item.address}
           >
             {item.title}
-          </a>
+          </Link>
         </li>
       ))}
     </ul>
