@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -8,43 +8,30 @@ import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 import styles from './ProductPreviewSlider.module.scss';
 import './ProductPreviewSlider.scss';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
+import { TypeList1 } from '../../../api/Types/Types.ts';
+import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const ProductPreviewSlider: React.FC = () => {
+  const [productPreviewSliderArr, setProductPreviewSliderArr] = useState<
+    TypeList1[]
+  >([]);
+
   const [width] = useWindowResize();
 
-  interface IProductPreviewSlider {
-    id: string;
-    title: string;
-    text: string;
-  }
+  const productPreviewSliderData = '/productPreviewSliderData';
 
-  const productPreviewSliderArr: IProductPreviewSlider[] = [
-    {
-      id: '1',
-      title: ' The best products in the world of tattoos',
-      text: 'Equipment and consumables for the brightest and highest quality work',
-    },
-    {
-      id: '2',
-      title: ' The best products in the world of tattoos',
-      text: 'Equipment and consumables for the brightest and highest quality work',
-    },
-    {
-      id: '3',
-      title: ' The best products in the world of tattoos',
-      text: 'Equipment and consumables for the brightest and highest quality work',
-    },
-    {
-      id: '4',
-      title: ' The best products in the world of tattoos',
-      text: 'Equipment and consumables for the brightest and highest quality work',
-    },
-    {
-      id: '5',
-      title: ' The best products in the world of tattoos',
-      text: 'Equipment and consumables for the brightest and highest quality work',
-    },
-  ];
+  const getData = async () => {
+    try {
+      const res = await fetchList(productPreviewSliderData);
+      setProductPreviewSliderArr(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div className={styles.swiper_container}>

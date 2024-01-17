@@ -285,4 +285,20 @@
       display: block;
     }
   }
+
+  .active {
+    position: relative;
+    color: #bb8c5f !important;
+
+    &:before {
+      position: absolute;
+      content: '';
+      background: url('./../../../assets/svg/Line_hover.svg') center center
+        no-repeat;
+      width: 6px;
+      height: 18px;
+      bottom: -14px;
+      left: 48.5%;
+    }
+  }
 }

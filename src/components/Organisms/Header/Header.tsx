@@ -110,9 +110,7 @@ const Header: React.FC = () => {
             <Input placeholder={'Search'} className={styles.inp} />
           </div>
           <div className={styles.desk_another_list_container}>
-            <DeskHeaderAnotherList
-              listLinksHoverStyle={styles.list_Links_Hover_Style}
-            />
+            <DeskHeaderAnotherList listLinksStyle={styles.active} />
           </div>
         </div>
       </div>

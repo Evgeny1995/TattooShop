@@ -1,68 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './HomePopularBrands.module.scss';
-import kyroSumiImg from './../../../assets/img/PopularBrands/KuroSumi.png';
-import hanafyImg from './../../../assets/img/PopularBrands/Hanafy.png';
-import tatooReviveImg from './../../../assets/img/PopularBrands/TatooRevive.png';
-import aloeImg from './../../../assets/img/PopularBrands/Aloe.png';
-import faceBodyImg from './../../../assets/img/PopularBrands/faceAndBody.png';
-import H2oceanImg from './../../../assets/img/PopularBrands/H2Ocean.png';
-import kyroSumiImgTab from './../../../assets/img/PopularBrands/tab/KuroSumi.png';
-import hanafyImgTab from './../../../assets/img/PopularBrands/tab/Hanafy.png';
-import tatooReviveImgTab from './../../../assets/img/PopularBrands/tab/TatooRevive.png';
-import aloeImgTab from './../../../assets/img/PopularBrands/tab/Aloe.png';
-import faceBodyImgTab from './../../../assets/img/PopularBrands/tab/faceAndBody.png';
-import H2oceanImgTab from './../../../assets/img/PopularBrands/tab/H2Ocean.png';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
 import HomePopularBrandsDeskSlider from '../HomePopularBrandsDeskSlider/HomePopularBrandsDeskSlider.tsx';
+import { TypeList1 } from '../../../api/Types/Types.ts';
+import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const HomePopularBrands: React.FC = () => {
   const [width] = useWindowResize();
 
-  interface IMobTabHomePopularBrands {
-    id: string;
-    img: string;
-    imgTab: string;
-    alt: string;
-  }
-
-  const mobTabHomePopularBrandsArr: IMobTabHomePopularBrands[] = [
-    {
-      id: '1',
-      img: kyroSumiImg,
-      imgTab: kyroSumiImgTab,
-      alt: 'kyro sumi',
-    },
-    {
-      id: '2',
-      img: hanafyImg,
-      imgTab: hanafyImgTab,
-      alt: 'hanafy',
-    },
-    {
-      id: '3',
-      img: tatooReviveImg,
-      imgTab: tatooReviveImgTab,
-      alt: 'tatoo revive',
-    },
-    {
-      id: '4',
-      img: aloeImg,
-      imgTab: aloeImgTab,
-      alt: 'aloe',
-    },
-    {
-      id: '5',
-      img: faceBodyImg,
-      imgTab: faceBodyImgTab,
-      alt: 'face body',
-    },
-    {
-      id: '6',
-      img: H2oceanImg,
-      imgTab: H2oceanImgTab,
-      alt: 'H2oceanImg',
-    },
-  ];
+  const mobTabHomePopularBrandsArrLink = '/mobTabHomePopularBrandsArr';
+  const [mobTabHomePopularBrandsData, setMobTabHomePopularBrandsData] =
+    useState<TypeList1[]>([]);
+  const getData = async () => {
+    try {
+      const res = await fetchList(mobTabHomePopularBrandsArrLink);
+      return setMobTabHomePopularBrandsData(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+  // console.log(mobCatalCategoryData);
+  useEffect(() => {
+    getData();
+    // console.log(mobCatalCategoryData);
+  }, []);
 
   return (
     <div className={styles.home_popular_brands_container}>
@@ -74,11 +35,11 @@ const HomePopularBrands: React.FC = () => {
           </a>
         </div>
         <ul className={styles.popular_brands_list}>
-          {mobTabHomePopularBrandsArr.map((item) => (
+          {mobTabHomePopularBrandsData.map((item) => (
             <li className={styles.list_item} key={item.id}>
               <a className={styles.item_links} href="#">
                 <img
-                  src={width <= 768 ? item.img : item.imgTab}
+                  src={width <= 768 ? item.imgMob : item.imgTab}
                   alt={item.alt}
                 />
               </a>

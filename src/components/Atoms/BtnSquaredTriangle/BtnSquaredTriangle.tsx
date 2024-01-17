@@ -4,13 +4,13 @@ import triange from './../../../assets/svg/button/beforeTriangle.svg';
 
 export type props = {
   position?: string;
-  onClick?: void;
+  onClick?(): void;
 };
 
-const BtnSquaredTriangle: React.FC<props> = (props) => {
+const BtnSquaredTriangle: React.FC<props> = ({ onClick, position }) => {
   return (
-    <div className={props.position}>
-      <button className={styles.btn_style}>
+    <div className={position}>
+      <button onClick={onClick} className={styles.btn_style}>
         <img src={triange} alt="" />
       </button>
     </div>

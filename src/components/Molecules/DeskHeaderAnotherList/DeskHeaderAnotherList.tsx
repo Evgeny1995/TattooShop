@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './DeskHeaderAnotherList.module.scss';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { TypeList1 } from '../../../api/Types/Types.ts';
+import { fetchList } from '../../../api/Requests/Requests.ts';
+import clsx from 'clsx';
 
 export type props = {
   listStyle?: string;
@@ -10,19 +13,20 @@ export type props = {
 };
 
 const DeskHeaderAnotherList: React.FC<props> = (props) => {
-  interface IDeskNavList {
-    id: string;
-    title: string;
-    address?: string;
-  }
+  const deskNavList = '/deskNavList';
+  const [deskNavListData, getDeskNavListData] = useState<TypeList1[]>([]);
+  const getData = async () => {
+    try {
+      const res = await fetchList(deskNavList);
+      getDeskNavListData(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
-  const deskNavListData: IDeskNavList[] = [
-    { id: '1', title: 'Promo codes', address: 'promo-codes' },
-    { id: '2', title: 'Sales', address: '*' },
-    { id: '3', title: 'Help', address: 'help' },
-    { id: '4', title: 'About us', address: '*' },
-    { id: '5', title: 'Contacts', address: '*' },
-  ];
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <ul
@@ -40,12 +44,18 @@ const DeskHeaderAnotherList: React.FC<props> = (props) => {
             props.listItemStyle,
           ].join(' ')}
         >
-          <Link
-            className={[styles.links, props.listLinksStyle].join(' ')}
+          <NavLink
+            className={({ isActive }) =>
+              [
+                isActive
+                  ? clsx(styles.links, props.listLinksStyle)
+                  : styles.links,
+              ].join(' ')
+            }
             to={'/' + item.address}
           >
             {item.title}
-          </Link>
+          </NavLink>
         </li>
       ))}
     </ul>

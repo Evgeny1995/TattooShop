@@ -1,25 +1,30 @@
+import { TypeList1 } from '../Types/Types.ts';
 import axios from 'axios';
+
+/////////////////////////////
+///////////API_URL///////////
+/////////////////////////////
 
 const API_URL = 'http://localhost:3001';
 
-type nestedList = {
-  id: string;
-  title: string;
-};
+/////////////////////////////
+///////////REQUESTS//////////
+/////////////////////////////
 
-//
-export async function fetchNestedList() {
-  axios
-    .get<nestedList>(`${API_URL}/catalCategoryNestedData`)
-    .then((response) => {
-      console.log(response.data);
-      return response;
+export function fetchList(clarificationLinks: string) {
+  return axios
+    .get<TypeList1[]>(`${API_URL}${clarificationLinks}`)
+    .then((res) => {
+      return res.data;
     })
     .catch((error) => {
       console.log(error);
     });
 }
 
+/////////////////////////////
+/////////////////////////////
+/////////////////////////////
 // const API_URL = 'http://localhost:3001';
 // type NestedList = {
 //   id: string;

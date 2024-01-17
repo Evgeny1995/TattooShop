@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './HomeSeasonalOffers.module.scss';
 import paintsNitn from './../../../assets/img/HomeSesonalOffers/paintsNith.png';
 import FoxViper from './../../../assets/img/HomeSesonalOffers/FoxViper.png';
+import { fetchList } from '../../../api/Requests/Requests.ts';
+import { TypeList1 } from '../../../api/Types/Types.ts';
 
 const HomeSeasonalOffers: React.FC = () => {
   interface IHomeSeasonalOffers {
@@ -26,11 +28,29 @@ const HomeSeasonalOffers: React.FC = () => {
     },
   ];
 
+  const homeSeasonalOffersData = '/homeSeasonalOffersData';
+  const [homeSeasonalOffersDataArr, setHomeSeasonalOffersDataArr] = useState<
+    TypeList1[]
+  >([]);
+
+  const getData = async () => {
+    try {
+      const res = await fetchList(homeSeasonalOffersData);
+      setHomeSeasonalOffersDataArr(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className={styles.seasonal_offers_container}>
       <div className={styles.seasonal_offers_content}>
         <ul className={styles.seasonal_offers_list}>
-          {HomeSeasonalOffersArr.map((item) => (
+          {homeSeasonalOffersDataArr.map((item) => (
             <li key={item.id} className={styles.list_item}>
               <p className={styles.item_title}>{item.title}</p>
               <div className={styles.item_links_container}>
