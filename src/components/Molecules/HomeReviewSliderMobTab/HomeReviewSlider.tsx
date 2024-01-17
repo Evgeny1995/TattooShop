@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styles from './HomeReviewSlider.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './HomeReviewSlider.scss';
-import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { TypeList1 } from '../../../api/Types/Types.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 
@@ -29,9 +30,17 @@ const HomeReviewSliderMobTab: React.FC = () => {
   return (
     <div className={styles.review_slider_container}>
       <Swiper
+        pagination={{
+          enabled: true,
+          el: '.swiper-pagination-review-mob-tab',
+          clickable: true,
+          bulletElement: 'div',
+          bulletClass: 'swiper-bullets-review-mob-tab',
+          bulletActiveClass: 'swiper-bullets-review-slider-active-mob-tab',
+        }}
         loop={true}
         spaceBetween={110}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[EffectCoverflow, Pagination]}
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
@@ -43,18 +52,6 @@ const HomeReviewSliderMobTab: React.FC = () => {
           modifier: 3,
           slideShadows: false,
         }}
-        // navigation={{
-        //   enabled: true,
-        //   prevEl: '.home_review_btn_prev',
-        //   nextEl: '.home_review_btn_next',
-        // }}
-        // pagination={{
-        //   el: '.swiper-pagination-review-slider',
-        //   clickable: true,
-        //   bulletElement: 'div',
-        //   bulletClass: 'swiper-bullets-review-slider',
-        //   bulletActiveClass: 'swiper-bullets-review-slider-active',
-        // }}
         className="mySwiper"
       >
         {homeReviewArrData.map((slide) => (
@@ -125,9 +122,7 @@ const HomeReviewSliderMobTab: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="swiper-pagination-review-slider"></div>
-      <button className="home_review_btn_prev"></button>
-      <button className="home_review_btn_next"></button>
+      <div className="swiper-pagination-review-mob-tab"></div>
     </div>
   );
 };

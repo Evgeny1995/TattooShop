@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styles from './HomeReviewSliderDesk.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import './HomeReviewSliderDesk.scss';
 import type { Swiper as SwiperClass } from 'swiper/types';
 import clsx from 'clsx';
 import BtnSquaredTriangle from '../../Atoms/BtnSquaredTriangle/BtnSquaredTriangle.tsx';
 import { TypeList1 } from '../../../api/Types/Types.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
+import { Pagination } from 'swiper/modules';
 
 const HomeReviewSliderDesk: React.FC = () => {
   const [swiper, setSwiper] = useState<SwiperClass>();
@@ -41,7 +42,15 @@ const HomeReviewSliderDesk: React.FC = () => {
     <div>
       <div className={styles.review_slider_container}>
         <Swiper
-          loop={true}
+          modules={[Pagination]}
+          pagination={{
+            enabled: true,
+            el: '.swiper-pagination-review-desk',
+            clickable: true,
+            bulletElement: 'div',
+            bulletClass: 'swiper-bullets-review-desk',
+            bulletActiveClass: 'swiper-bullets-review-slider-active-desk',
+          }}
           slidesPerView={2}
           initialSlide={1}
           spaceBetween={20}
@@ -121,7 +130,7 @@ const HomeReviewSliderDesk: React.FC = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="swiper-pagination-review-slider"></div>
+        <div className="swiper-pagination-review-desk"></div>
         <div className={styles.btn_position}>
           <BtnSquaredTriangle
             position={styles.btn_position_prev}

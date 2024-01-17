@@ -1,0 +1,36 @@
+.swiper-pagination-review-desk {
+  display: flex;
+  position: relative;
+  gap: 15px;
+  justify-content: center;
+  bottom: -50px !important;
+  z-index: 111111111;
+}
+
+.swiper-bullets-review-desk {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #524336;
+}
+
+.swiper-bullets-review-slider-active-desk {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #524336;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: #bb8c5f;
+  }
+}
+
+.review-slide-active {
+  opacity: 1;
+  background-color: #bb8c5f;
+}

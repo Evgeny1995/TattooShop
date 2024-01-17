@@ -1,20 +1,20 @@
-.swiper-pagination-review-slider {
+.swiper-pagination-review-mob-tab {
   display: flex;
   position: relative;
   gap: 15px;
   justify-content: center;
-  bottom: -10px !important;
+  bottom: -20px !important;
   z-index: 1;
 }
 
-.swiper-bullets-review-slider {
+.swiper-bullets-review-mob-tab {
   position: relative;
   width: 16px;
   height: 16px;
   border: 1px solid #524336;
 }
 
-.swiper-bullets-review-slider-active {
+.swiper-bullets-review-slider-active-mob-tab {
   width: 16px;
   height: 16px;
   border: 1px solid #524336;
@@ -44,12 +44,12 @@
 //}
 
 @media (min-width: 482px) {
-  .swiper-pagination-review-slider {
+  .swiper-pagination-review-mob-tab {
     display: flex;
     position: relative;
     gap: 15px;
     justify-content: center;
-    bottom: 16px !important;
+    bottom: 30px !important;
     z-index: 1;
   }
 }
