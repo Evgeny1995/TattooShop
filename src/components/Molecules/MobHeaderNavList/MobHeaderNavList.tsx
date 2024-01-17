@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './MobHeaderNavList.module.scss';
 import HeaderCatalogNestedList from '../HeaderCatalognestedList/HeaderCatalogNestedList.tsx';
 import { Link } from 'react-router-dom';
+import { TypeList1 } from '../../../api/Types/Types.ts';
+import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const MobHeaderNavList: React.FC = () => {
   const [catalogList, setCatalogList] = useState<boolean>(true);
@@ -11,7 +13,7 @@ const MobHeaderNavList: React.FC = () => {
     title: string;
   }
 
-  const mobCatalCategoryData: ICatalCategory[] = [
+  const mobCatalCategory: ICatalCategory[] = [
     { id: '1', title: 'Catalog' },
     { id: '2', title: 'Contacts' },
     { id: '3', title: 'Promo codes' },
@@ -21,6 +23,23 @@ const MobHeaderNavList: React.FC = () => {
     { id: '7', title: 'Favorites' },
     { id: '8', title: 'Personal area' },
   ];
+  const clarifyingLink = '/mobCatalCategoryData';
+  const [mobCatalCategoryData, getMobCatalCategoryData] = useState<TypeList1[]>(
+    [],
+  );
+  const getData = async () => {
+    try {
+      const res = await fetchList(clarifyingLink);
+      return getMobCatalCategoryData(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+  // console.log(mobCatalCategoryData);
+  useEffect(() => {
+    getData();
+    // console.log(mobCatalCategoryData);
+  }, []);
 
   return (
     <ul className={styles.header_nav__list}>
@@ -33,7 +52,7 @@ const MobHeaderNavList: React.FC = () => {
               : [styles.nav_list__btn, styles.rotate].join(' ')
           }
         >
-          {mobCatalCategoryData[0].title}
+          {mobCatalCategory[0].title}
         </button>
         <div
           className={
@@ -50,37 +69,37 @@ const MobHeaderNavList: React.FC = () => {
       </li>
       <li className={styles.nav_list__item}>
         <Link className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[1].title}
+          {mobCatalCategory[1].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
         <Link to="/promo-codes" className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[2].title}
+          {mobCatalCategory[2].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
         <Link className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[3].title}
+          {mobCatalCategory[3].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
         <Link className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[4].title}
+          {mobCatalCategory[4].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
         <Link className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[5].title}
+          {mobCatalCategory[5].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
         <Link className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[6].title}
+          {mobCatalCategory[6].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
         <Link className={styles.mob_menu__nav_links}>
-          {mobCatalCategoryData[7].title}
+          {mobCatalCategory[7].title}
         </Link>
       </li>
     </ul>

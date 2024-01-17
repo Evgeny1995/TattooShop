@@ -1,37 +1,48 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './HomeReviewSlider.module.scss';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './HomeReviewSlider.scss';
-import { homeReviewArr } from '../HomeReview/HomeReview.tsx';
-import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
+import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
+import { TypeList1 } from '../../../api/Types/Types.ts';
+import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const HomeReviewSliderMobTab: React.FC = () => {
-  const [width] = useWindowResize();
-  const swiperInst = useSwiper();
+  const clarifyingLink = '/homeReviewArrData';
+  const [homeReviewArrData, setHomeReviewArrData] = useState<TypeList1[]>([]);
+  const getData = async () => {
+    try {
+      const res = await fetchList(clarifyingLink);
+      return setHomeReviewArrData(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div className={styles.review_slider_container}>
       <Swiper
-        // observer={true}
-        // observeSlideChildren={true}
-        // observeParents={true}
-        // resizeObserver={true}
-        // modules={[EffectCoverflow, Pagination, Navigation]}
-        // grabCursor={true}
-        // loop={true}
-        slidesPerView={2}
-        spaceBetween={20}
-        // coverflowEffect={{
-        //   slideShadows: false,
-        //   rotate: 0,
-        //   stretch: 0,
-        //   depth: 125,
-        //   modifier: 3,
-        // }}
+        loop={true}
+        spaceBetween={110}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 3,
+          slideShadows: false,
+        }}
         // navigation={{
         //   enabled: true,
         //   prevEl: '.home_review_btn_prev',
@@ -46,7 +57,7 @@ const HomeReviewSliderMobTab: React.FC = () => {
         // }}
         className="mySwiper"
       >
-        {homeReviewArr.map((slide) => (
+        {homeReviewArrData.map((slide) => (
           <SwiperSlide className={styles.slide} key={slide.id}>
             {(slideData) => (
               <div

@@ -15,6 +15,7 @@ const App: React.FC = () => {
         <Route path="/promo-codes" element={<PromoCodes />} />
         <Route path="/help" element={<Help />} />
         <Route path="*" element={<NotFound />} />
+        футер
       </Routes>
     </div>
   );

@@ -1,52 +1,637 @@
 {
   "catalCategoryNestedData": [
     {
-      "id": "1",
+      "id": 1,
       "title": "New"
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Tattoo kits"
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Car tattoo"
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "Tattoo paints"
     },
     {
-      "id": "5",
+      "id": 5,
       "title": "Tattoo needles"
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "Tattoo holders"
     },
     {
-      "id": "7",
+      "id": 7,
       "title": "Tattoo tips"
     },
     {
-      "id": "8",
+      "id": 8,
       "title": "Power supplies"
     },
     {
-      "id": "9",
+      "id": 9,
       "title": "Pedals and wires"
     },
     {
-      "id": "10",
+      "id": 10,
       "title": "Accessories"
     },
     {
-      "id": "11",
+      "id": 11,
       "title": "Printers and tablets"
     },
     {
-      "id": "12",
+      "id": 12,
       "title": "Сonsumables"
+    }
+  ],
+  "brandsList": [
+    {
+      "id": 1,
+      "title": "Aliance"
+    },
+    {
+      "id": 2,
+      "title": "Aloe Tattoo"
+    },
+    {
+      "id": 3,
+      "title": "Anchored by Nikko Hurtado"
+    },
+    {
+      "id": 4,
+      "title": "BC Invention Comrany"
+    },
+    {
+      "id": 5,
+      "title": "Beauty Bit"
+    },
+    {
+      "id": 6,
+      "title": "Bishop Rotary"
+    },
+    {
+      "id": 7,
+      "title": "Burlak Tattoo Machines"
+    },
+    {
+      "id": 8,
+      "title": "Cheyenne HAWK"
+    },
+    {
+      "id": 9,
+      "title": "Critical Tattoo"
+    },
+    {
+      "id": 10,
+      "title": "Dermalize Protective"
+    },
+    {
+      "id": 11,
+      "title": "Dynamic Colors"
+    },
+    {
+      "id": 12,
+      "title": "EGO Bez’s Rotary"
+    },
+    {
+      "id": 13,
+      "title": "Eikon Device Inc."
+    },
+    {
+      "id": 14,
+      "title": "Electrum"
+    },
+    {
+      "id": 15,
+      "title": "EQUALISER by Kwadron"
+    },
+    {
+      "id": 16,
+      "title": "Eternal"
+    },
+    {
+      "id": 17,
+      "title": "Excalibur"
+    },
+    {
+      "id": 18,
+      "title": "Fantasia Art Supply"
+    },
+    {
+      "id": 19,
+      "title": "FKirons"
+    },
+    {
+      "id": 20,
+      "title": "Hanafy"
+    },
+    {
+      "id": 21,
+      "title": "HM Tattoo Machines"
+    },
+    {
+      "id": 22,
+      "title": "Ink Machines"
+    },
+    {
+      "id": 23,
+      "title": "InkJecta Tattoo Machine"
+    },
+    {
+      "id": 24,
+      "title": "Intenze"
+    },
+    {
+      "id": 25,
+      "title": "JACK & ALEXX"
+    },
+    {
+      "id": 26,
+      "title": "Kashalot Rotary"
+    },
+    {
+      "id": 27,
+      "title": "Kuro Sumi"
+    },
+    {
+      "id": 28,
+      "title": "KWADRON™"
+    },
+    {
+      "id": 29,
+      "title": "Lauro Paolini"
+    },
+    {
+      "id": 30,
+      "title": "Lithuanian Irons"
+    },
+    {
+      "id": 31,
+      "title": "Lucky Supply"
+    },
+    {
+      "id": 32,
+      "title": "Mercator Medical"
+    },
+    {
+      "id": 33,
+      "title": "Millenium Mom’s Ink"
+    },
+    {
+      "id": 34,
+      "title": "NEMESIS"
+    },
+    {
+      "id": 35,
+      "title": "Nocturnal Tattoo Ink"
+    },
+    {
+      "id": 36,
+      "title": "Panthera"
+    },
+    {
+      "id": 37,
+      "title": "Perma Blend"
+    },
+    {
+      "id": 38,
+      "title": "Precision Needles"
+    },
+    {
+      "id": 39,
+      "title": "Precision Tattoo Supply"
+    },
+    {
+      "id": 40,
+      "title": "Premier Products"
+    },
+    {
+      "id": 41,
+      "title": "Radiant"
+    },
+    {
+      "id": 42,
+      "title": "Reprofx® Spirit™"
+    },
+    {
+      "id": 43,
+      "title": "Right Stuuf"
+    },
+    {
+      "id": 44,
+      "title": "S8TATTOO"
+    },
+    {
+      "id": 45,
+      "title": "Skinductor"
+    },
+    {
+      "id": 46,
+      "title": "Starbrite"
+    },
+    {
+      "id": 47,
+      "title": "Tattoorevive"
+    },
+    {
+      "id": 48,
+      "title": "TURANIUM Fabrika Rotary"
+    },
+    {
+      "id": 49,
+      "title": "UNI–CART"
+    },
+    {
+      "id": 50,
+      "title": "Vlad Blad"
+    },
+    {
+      "id": 51,
+      "title": "World Famous Bala"
+    },
+    {
+      "id": 52,
+      "title": "World Famous Tattoo Ink"
+    },
+    {
+      "id": 53,
+      "title": "2K2BT"
+    },
+    {
+      "id": 54,
+      "title": "БРОВИ"
+    },
+    {
+      "id": 55,
+      "title": "КРАСКА Tattoo Ink"
+    }
+  ],
+  "deskNavList": [
+    {
+      "id": 1,
+      "title": "Promo codes",
+      "address": "promo-codes"
+    },
+    {
+      "id": 2,
+      "title": "Sales",
+      "address": "*"
+    },
+    {
+      "id": 3,
+      "title": "Help",
+      "address": "help"
+    },
+    {
+      "id": 4,
+      "title": "About us",
+      "address": "f"
+    },
+    {
+      "id": 5,
+      "title": "Contacts",
+      "address": "s"
+    }
+  ],
+  "mobCatalCategoryData": [
+    {
+      "id": 1,
+      "title": "Catalog"
+    },
+    {
+      "id": 2,
+      "title": "Contacts"
+    },
+    {
+      "id": 3,
+      "title": "Promo codes"
+    },
+    {
+      "id": 4,
+      "title": "Discounts"
+    },
+    {
+      "id": 5,
+      "title": "Help"
+    },
+    {
+      "id": 6,
+      "title": "About Us"
+    },
+    {
+      "id": 7,
+      "title": "Favorites"
+    },
+    {
+      "id": 8,
+      "title": "Personal area"
+    }
+  ],
+  "productPreviewSliderData": [
+    {
+      "id": 1,
+      "title": "The best products in the world of tattoos",
+      "text": "Equipment and consumables for the brightest and highest quality work"
+    },
+    {
+      "id": 2,
+      "title": "The best products in the world of tattoos",
+      "text": "Equipment and consumables for the brightest and highest quality work"
+    },
+    {
+      "id": 3,
+      "title": "The best products in the world of tattoos",
+      "text": "Equipment and consumables for the brightest and highest quality work"
+    },
+    {
+      "id": 4,
+      "title": "The best products in the world of tattoos",
+      "text": "Equipment and consumables for the brightest and highest quality work"
+    },
+    {
+      "id": 5,
+      "title": "The best products in the world of tattoos",
+      "text": "Equipment and consumables for the brightest and highest quality work"
+    }
+  ],
+  "catalogListDataMobTab": [
+    {
+      "id": 1,
+      "title": "Tattoo kits",
+      "imgMob": "src/assets/img/homeCatalog/TattookitsImg.png",
+      "imgTab": "src/assets/img/homeCatalog/TattookitsImgTab.png"
+    },
+    {
+      "id": 2,
+      "title": "Holders",
+      "imgMob": "src/assets/img/homeCatalog/HoldersImg.png",
+      "imgTab": "src/assets/img/homeCatalog/HoldersImgTab.png"
+    },
+    {
+      "id": 3,
+      "title": "Cars tattoo",
+      "imgMob": "src/assets/img/homeCatalog/TatooCarsImg.png",
+      "imgTab": "src/assets/img/homeCatalog/TatooCarsImgTab.png"
+    },
+    {
+      "id": 4,
+      "title": "Pedals and wires",
+      "imgMob": "src/assets/img/homeCatalog/PedalsAndWiresImg.png",
+      "imgTab": "src/assets/img/homeCatalog/PedalsAndWiresImgTab.png"
+    },
+    {
+      "id": 5,
+      "title": "Paints",
+      "imgMob": "src/assets/img/homeCatalog/PaintsImg.png",
+      "imgTab": "src/assets/img/homeCatalog/PaintsImgTab.png"
+    }
+  ],
+  "catalogListDataDesk": [
+    {
+      "id": 1,
+      "title": "Tattoo kits",
+      "imgDesk": "src/assets/img/homeCatalog/desk/TattooKits.png"
+    },
+    {
+      "id": 2,
+      "title": "HoldersImgDesk",
+      "imgDesk": "src/assets/img/homeCatalog/desk/Holders.png"
+    },
+    {
+      "id": 3,
+      "title": "Cars tattoo",
+      "imgDesk": "src/assets/img/homeCatalog/desk/CarsTattoo.png"
+    },
+    {
+      "id": 4,
+      "title": "Pedals and wires",
+      "imgDesk": "src/assets/img/homeCatalog/desk/PedalsAndWires.png"
+    },
+    {
+      "id": 5,
+      "title": "Paints",
+      "imgDesk": "src/assets/img/homeCatalog/desk/Paints.png"
+    },
+    {
+      "id": 6,
+      "title": "Power supplies",
+      "imgDesk": "src/assets/img/homeCatalog/desk/PowerSupplies.png"
+    },
+    {
+      "id": 7,
+      "title": "Tips",
+      "imgDesk": "src/assets/img/homeCatalog/desk/Tips.png"
+    },
+    {
+      "id": 8,
+      "title": "Tattoo needles",
+      "imgDesk": "src/assets/img/homeCatalog/desk/TattooNeedles.png"
+    },
+    {
+      "id": 9,
+      "title": "Protection, containers, consumables",
+      "imgDesk": "src/assets/img/homeCatalog/desk/ProtectionContainersConsumables.png"
+    },
+    {
+      "id": 10,
+      "title": "Accessories",
+      "imgDesk": "src/assets/img/homeCatalog/desk/Accessories.png"
+    },
+    {
+      "id": 11,
+      "title": "Printers and tablets",
+      "imgDesk": "src/assets/img/homeCatalog/desk/PrintersAndTablets.png"
+    }
+  ],
+  "homeSeasonalOffersData": [
+    {
+      "id": 1,
+      "title": "Lip Nitn paints"
+    },
+    {
+      "id": 2,
+      "title": "Foxx viper - hit of 2021"
+    }
+  ],
+  "mobTabHomePopularBrandsArr": [
+    {
+      "id": 1,
+      "imgMob": "src/assets/img/PopularBrands/KuroSumi.png",
+      "imgTab": "src/assets/img/PopularBrands/tab/KuroSumi.png",
+      "alt": "kyro sumi"
+    },
+    {
+      "id": 2,
+      "imgMob": "src/assets/img/PopularBrands/Hanafy.png",
+      "imgTab": "src/assets/img/PopularBrands/tab/Hanafy.png",
+      "alt": "hanafy"
+    },
+    {
+      "id": 3,
+      "imgMob": "src/assets/img/PopularBrands/TatooRevive.png",
+      "imgTab": "src/assets/img/PopularBrands/tab/TatooRevive.png",
+      "alt": "tatoo revive"
+    },
+    {
+      "id": 4,
+      "imgMob": "src/assets/img/PopularBrands/Aloe.png",
+      "imgTab": "src/assets/img/PopularBrands/tab/Aloe.png",
+      "alt": "aloe"
+    },
+    {
+      "id": 5,
+      "imgMob": "src/assets/img/PopularBrands/faceAndBody.png",
+      "imgTab": "src/assets/img/PopularBrands/tab/faceAndBody.png",
+      "alt": "face body"
+    },
+    {
+      "id": 6,
+      "imgMob": "src/assets/img/PopularBrands/H2Ocean.png",
+      "imgTab": "src/assets/img/PopularBrands/tab/H2Ocean.png",
+      "alt": "H2oceanImg"
+    }
+  ],
+  "deskHomePopularBrandsArr": [
+    {
+      "id": 1,
+      "imgDesk": "src/assets/img/PopularBrands/desk/KuroSumi.png",
+      "alt": "kyro sumi"
+    },
+    {
+      "id": 2,
+      "imgDesk": "src/assets/img/PopularBrands/desk/Hanafy.png",
+      "alt": "hanafy"
+    },
+    {
+      "id": 3,
+      "imgDesk": "src/assets/img/PopularBrands/desk/TatooRevive.png",
+      "alt": "tatoo revive"
+    },
+    {
+      "id": 4,
+      "imgDesk": "src/assets/img/PopularBrands/desk/Aloe.png",
+      "alt": "aloe"
+    },
+    {
+      "id": 5,
+      "imgDesk": "src/assets/img/PopularBrands/desk/faceAndBody.png",
+      "alt": "face body"
+    },
+    {
+      "id": 6,
+      "imgDesk": "src/assets/img/PopularBrands/desk/H2Ocean.png",
+      "alt": "H2oceanImg"
+    },
+    {
+      "id": 7,
+      "imgDesk": "src/assets/img/PopularBrands/desk/H2Ocean.png",
+      "alt": "H2oceanImg"
+    },
+    {
+      "id": 8,
+      "imgDesk": "src/assets/img/PopularBrands/desk/H2Ocean.png",
+      "alt": "H2oceanImg"
+    },
+    {
+      "id": 9,
+      "imgDesk": "src/assets/img/PopularBrands/desk/H2Ocean.png",
+      "alt": "H2oceanImg"
+    },
+    {
+      "id": 10,
+      "imgDesk": "src/assets/img/PopularBrands/desk/H2Ocean.png",
+      "alt": "H2oceanImg"
+    }
+  ],
+  "homeReviewArrData": [
+    {
+      "id": 1,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@Velli7350",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 2,
+      "description": "We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
+    },
+    {
+      "id": 3,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@Velli7350",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 4,
+      "description": "We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
+    },
+    {
+      "id": 5,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@Velli7350",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 6,
+      "description": "'We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately'",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
+    },
+    {
+      "id": 7,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 8,
+      "description": "We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
+    },
+    {
+      "id": 9,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@Velli7350",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 10,
+      "description": "'We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately'",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
+    },
+    {
+      "id": 11,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@Velli7350",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 12,
+      "description": "'We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately'",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
+    },
+    {
+      "id": 13,
+      "description": "I ordered for the first time, the order arrived on time, everything was packaged perfectly, everything ordered corresponds to the description, but there is one small nuance, the boxes are all crumpled, either this happened during packaging or in the warehouse they treat the product this way, overall I’m happy with everything, I will order more, I recommend the site-shop for shopping, overall I’m happy with everything, I will order again.",
+      "email": "@Velli7350",
+      "avatar": "src/assets/img/review/userAvatar1.png"
+    },
+    {
+      "id": 14,
+      "description": "'We put everything we needed + a sticker, a discount card and lollipops, what was unexpected was that the holder and clip cord in the set came in the wrong color, I was even pleased, but I was disappointed by one packaged needle that I couldn’t get adequately'",
+      "email": "@mark_love",
+      "avatar": "src/assets/img/review/userAvatar2.png"
     }
   ]
 }

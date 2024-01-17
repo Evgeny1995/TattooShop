@@ -1,22 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './HomeReviewSliderDesk.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { homeReviewArr } from '../HomeReview/HomeReview.tsx';
+
 import type { Swiper as SwiperClass } from 'swiper/types';
 import clsx from 'clsx';
 import BtnSquaredTriangle from '../../Atoms/BtnSquaredTriangle/BtnSquaredTriangle.tsx';
+import { TypeList1 } from '../../../api/Types/Types.ts';
+import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const HomeReviewSliderDesk: React.FC = () => {
   const [swiper, setSwiper] = useState<SwiperClass>();
-  const [slidesArray, setSlidesArray] = useState(homeReviewArr);
-
-  // const addSlide = () => {
-  //   setSlidesArray([
-  //     ...homeReviewArr.slice(1, homeReviewArr.length - 1),
-  //     homeReviewArr[0],
-  //   ]);
-  // };
-
   const handleNextClick = () => {
     swiper?.updateSlides();
     swiper?.slideNext();
@@ -26,10 +19,29 @@ const HomeReviewSliderDesk: React.FC = () => {
     swiper?.slidePrev();
   };
 
+  const clarifyingLink = '/homeReviewArrData';
+  const [homeReviewArrDataDesk, setHomeReviewArrDataDesk] = useState<
+    TypeList1[]
+  >([]);
+  const getData = async () => {
+    try {
+      const res = await fetchList(clarifyingLink);
+      return setHomeReviewArrDataDesk(res);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+  // console.log(mobCatalCategoryData);
+  useEffect(() => {
+    getData();
+    // console.log(mobCatalCategoryData);
+  }, []);
+
   return (
     <div>
       <div className={styles.review_slider_container}>
         <Swiper
+          loop={true}
           slidesPerView={2}
           initialSlide={1}
           spaceBetween={20}
@@ -37,7 +49,7 @@ const HomeReviewSliderDesk: React.FC = () => {
           onSwiper={setSwiper}
           className={clsx('mySwiper', styles.review_slider_wrapper)}
         >
-          {slidesArray.map((slide) => (
+          {homeReviewArrDataDesk.map((slide) => (
             <SwiperSlide className={styles.slide} key={slide.id}>
               {(slideInfo) => (
                 <div
