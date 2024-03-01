@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './HomeReviewSlider.scss';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const HomeReviewSliderMobTab: React.FC = () => {

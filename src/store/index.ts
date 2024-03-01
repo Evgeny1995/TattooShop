@@ -1,12 +1,10 @@
-// import { configureStore } from '@reduxjs/toolkit';
-//
-// const store = configureStore({
-//   reducer: {
-//     todos: todoReducer,
-//   },
-// });
-//
-// export default store;
-//
-// export type RootState = ReturnType<typeof store.getState>;
-// export type AppDispatch = typeof store.dispatch;
+import thunk from 'redux-thunk';
+import { rootReducer } from './list';
+import { configureStore } from '@reduxjs/toolkit';
+
+export const index = configureStore({
+  reducer: rootReducer,
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([thunk]),
+});
+
+export type RootState = ReturnType<typeof rootReducer>;

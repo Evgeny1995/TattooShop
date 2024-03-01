@@ -5,7 +5,7 @@ import './HomeReviewSliderDesk.scss';
 import type { Swiper as SwiperClass } from 'swiper/types';
 import clsx from 'clsx';
 import BtnSquaredTriangle from '../../Atoms/BtnSquaredTriangle/BtnSquaredTriangle.tsx';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 import { Pagination } from 'swiper/modules';
 
@@ -26,7 +26,7 @@ const HomeReviewSliderDesk: React.FC = () => {
   >([]);
   const getData = async () => {
     try {
-      const res = await fetchList(clarifyingLink);
+      const res: TypeList1[] | void = await fetchList(clarifyingLink);
       return setHomeReviewArrDataDesk(res);
     } catch (e) {
       console.log(e);

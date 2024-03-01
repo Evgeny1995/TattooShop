@@ -1,4 +1,4 @@
-import { TypeList1 } from '../Types/Types.ts';
+import { TypeList1 } from '../../types/list.ts';
 import axios from 'axios';
 
 /////////////////////////////
@@ -25,27 +25,3 @@ export function fetchList(clarificationLinks: string) {
 /////////////////////////////
 /////////////////////////////
 /////////////////////////////
-// const API_URL = 'http://localhost:3001';
-// type NestedList = {
-//   id: string;
-//   title: string;
-// };
-// export const getList = async () => {
-//   try {
-//     const res = await axios.get<NestedList>(
-//       `${API_URL}/catalCategoryNestedData`,
-//       {},
-//     );
-//   } catch (error) {
-//     if (axios.isAxiosError(error)) {
-//       console.log(error.response?.data.errorText, 'error');
-//     } else if (error instanceof ErrorEvent) {
-//       console.log(error.message);
-//     }
-//   }
-// };
-
-// export const getList = axios({
-//   url: `${API_URL}/catalCategoryNestedData`,
-//   method: 'GET',
-// });

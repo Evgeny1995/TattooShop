@@ -3,12 +3,14 @@ import styles from './HomeNewsSubscription.module.scss';
 import InputTwo from '../../Atoms/InputTwo/InputTwo.tsx';
 import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 
+
 const HomeNewsSubscription: React.FC = () => {
   const [check, setCheck] = useState(true);
 
   function handleChange() {
     setCheck(!check);
   }
+
 
   return (
     <div className={styles.subscription_wrap}>
@@ -46,7 +48,8 @@ const HomeNewsSubscription: React.FC = () => {
                   id={'subscription-check'}
                   className={styles.subscription_form_checkbox}
                   type="checkbox"
-                  checked={check ? true : false}
+                  onChange={() => {}}
+                  checked={check}
                 />
                 <label
                   onClick={handleChange}

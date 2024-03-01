@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import styles from './HeaderCatalogNestedList.module.scss';
-import { TypeList1 } from '../../../api/Types/Types.ts';
-import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { useActions } from '../../../hooks/useActions.ts';
 
 export type props = {
   position: string;
@@ -9,24 +9,16 @@ export type props = {
 };
 
 const HeaderCatalogNestedList: React.FC<props> = (props) => {
-  const nestedList = '/catalCategoryNestedData';
-  const [nestedListData, getNestedListData] = useState<TypeList1[]>([]);
-  const getData = async () => {
-    try {
-      const res = await fetchList(nestedList);
-      getNestedListData(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+  const { list } = useTypedSelector((state) => state.listState);
+  const { getList } = useActions();
 
   useEffect(() => {
-    getData();
+    getList();
   }, []);
 
   return (
     <ul className={props.position}>
-      {nestedListData.map((item) => (
+      {list?.map((item) => (
         <li className={styles.nested_item} key={item.id}>
           <a className={[styles.nested_links, props.color].join(' ')}>
             {item.title}

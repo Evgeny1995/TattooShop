@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import styles from './CatalogByBrandsList.module.scss';
-import { TypeList1 } from '../../../api/Types/Types.ts';
-import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { useActions } from '../../../hooks/useActions.ts';
 
 export type props = {
   color?: string;
@@ -10,24 +10,16 @@ export type props = {
 };
 
 const CatalogByBrandsList: React.FC<props> = (props) => {
-  const brandsList = '/brandsList';
-  const [brandsListData, getBrandsListData] = useState<TypeList1[]>([]);
-  const getData = async () => {
-    try {
-      const res = await fetchList(brandsList);
-      getBrandsListData(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+  const { list2 } = useTypedSelector((state) => state.listState);
+  const { getList2 } = useActions();
 
   useEffect(() => {
-    getData();
+    getList2();
   }, []);
 
   return (
     <ul className={[styles.brand_list, props.positionList].join(' ')}>
-      {brandsListData.map((item) => (
+      {list2?.map((item) => (
         <li
           key={item.id}
           className={[styles.brand_list_item, props.positionItem].join(' ')}

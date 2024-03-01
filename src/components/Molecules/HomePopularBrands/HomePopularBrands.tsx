@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './HomePopularBrands.module.scss';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
 import HomePopularBrandsDeskSlider from '../HomePopularBrandsDeskSlider/HomePopularBrandsDeskSlider.tsx';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const HomePopularBrands: React.FC = () => {

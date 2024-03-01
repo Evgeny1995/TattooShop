@@ -8,7 +8,7 @@ import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 import styles from './ProductPreviewSlider.module.scss';
 import './ProductPreviewSlider.scss';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const ProductPreviewSlider: React.FC = () => {

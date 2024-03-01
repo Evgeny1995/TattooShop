@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './MobHeaderNavList.module.scss';
 import HeaderCatalogNestedList from '../HeaderCatalognestedList/HeaderCatalogNestedList.tsx';
 import { Link } from 'react-router-dom';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const MobHeaderNavList: React.FC = () => {
@@ -68,7 +68,7 @@ const MobHeaderNavList: React.FC = () => {
         </div>
       </li>
       <li className={styles.nav_list__item}>
-        <Link className={styles.mob_menu__nav_links}>
+        <Link to={'#'} className={styles.mob_menu__nav_links}>
           {mobCatalCategory[1].title}
         </Link>
       </li>
@@ -78,27 +78,27 @@ const MobHeaderNavList: React.FC = () => {
         </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <Link className={styles.mob_menu__nav_links}>
+        <Link to={'#'} className={styles.mob_menu__nav_links}>
           {mobCatalCategory[3].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <Link className={styles.mob_menu__nav_links}>
+        <Link to={'#'} className={styles.mob_menu__nav_links}>
           {mobCatalCategory[4].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <Link className={styles.mob_menu__nav_links}>
+        <Link to={'#'} className={styles.mob_menu__nav_links}>
           {mobCatalCategory[5].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <Link className={styles.mob_menu__nav_links}>
+        <Link to={'#'} className={styles.mob_menu__nav_links}>
           {mobCatalCategory[6].title}
         </Link>
       </li>
       <li className={styles.nav_list__item}>
-        <Link className={styles.mob_menu__nav_links}>
+        <Link to={'#'} className={styles.mob_menu__nav_links}>
           {mobCatalCategory[7].title}
         </Link>
       </li>

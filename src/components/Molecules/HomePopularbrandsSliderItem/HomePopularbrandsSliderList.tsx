@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './HomePopularbrandsSliderList.module.scss';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 
 const HomePopularbrandsSliderList: React.FC = () => {

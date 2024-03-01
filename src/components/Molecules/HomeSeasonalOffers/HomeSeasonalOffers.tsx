@@ -3,7 +3,7 @@ import styles from './HomeSeasonalOffers.module.scss';
 import paintsNitn from './../../../assets/img/HomeSesonalOffers/paintsNith.png';
 import FoxViper from './../../../assets/img/HomeSesonalOffers/FoxViper.png';
 import { fetchList } from '../../../api/Requests/Requests.ts';
-import { TypeList1 } from '../../../api/Types/Types.ts';
+import { TypeList1 } from '../../../types/list.ts';
 
 const HomeSeasonalOffers: React.FC = () => {
   interface IHomeSeasonalOffers {
