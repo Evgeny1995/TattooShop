@@ -4,42 +4,27 @@ import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
 import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { useActions } from '../../../hooks/useActions.ts';
+import { getCatalogDataDeskList, getCatalogDataMobTabList } from '../../../store/list/actions.ts';
 
 const HomeCatalog: React.FC = () => {
-  const catalogListDataMobTab = '/catalogListDataMobTab';
-  const catalogListDataDesk = '/catalogListDataDesk';
   const [width] = useWindowResize();
-  const [catalogListMobTab, setCatalogListMobTab] = useState<TypeList1[]>([]);
-  const [catalogListDesk, setCatalogListDesk] = useState<TypeList1[]>([]);
-  const getDataMobTabData = async () => {
-    try {
-      const res = await fetchList(catalogListDataMobTab);
-      setCatalogListMobTab(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
-
-  const getDataDeskData = async () => {
-    try {
-      const res = await fetchList(catalogListDataDesk);
-      setCatalogListDesk(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+  const { catalogDataMobTabList,catalogDataDeskList } = useTypedSelector((state) => state.listState);
+  const { getCatalogDataMobTabList, getCatalogDataDeskList } = useActions();
 
   useEffect(() => {
-    getDataMobTabData();
-    getDataDeskData();
+    getCatalogDataMobTabList()
+    getCatalogDataDeskList()
   }, []);
+
   return (
     <div className={styles.home_catalog_container}>
       <div className={styles.home_catalog_content}>
         <h3 className={styles.home_catalog_title}>Catalog</h3>
         <ul className={styles.home_catalog_list}>
           {width < 1920
-            ? catalogListMobTab.map((item) => (
+            ? catalogDataMobTabList.map((item) => (
                 <li key={item.id} className={styles.list_item}>
                   <h4 className={styles.item_title}>{item.title}</h4>
                   <a className={styles.item_link} href="#">
@@ -51,7 +36,7 @@ const HomeCatalog: React.FC = () => {
                   </a>
                 </li>
               ))
-            : catalogListDesk.map((item) => (
+            : catalogDataDeskList.map((item) => (
                 <li key={item.id} className={styles.list_item}>
                   <h4 className={styles.item_title}>{item.title}</h4>
                   <a className={styles.item_link} href="#">

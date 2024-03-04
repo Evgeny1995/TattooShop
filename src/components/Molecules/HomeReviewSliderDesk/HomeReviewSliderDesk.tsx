@@ -8,6 +8,9 @@ import BtnSquaredTriangle from '../../Atoms/BtnSquaredTriangle/BtnSquaredTriangl
 import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 import { Pagination } from 'swiper/modules';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { getHomeReviewArrDataList } from '../../../store/list/actions.ts';
+import { useActions } from '../../../hooks/useActions.ts';
 
 const HomeReviewSliderDesk: React.FC = () => {
   const [swiper, setSwiper] = useState<SwiperClass>();
@@ -20,22 +23,13 @@ const HomeReviewSliderDesk: React.FC = () => {
     swiper?.slidePrev();
   };
 
-  const clarifyingLink = '/homeReviewArrData';
-  const [homeReviewArrDataDesk, setHomeReviewArrDataDesk] = useState<
-    TypeList1[]
-  >([]);
-  const getData = async () => {
-    try {
-      const res: TypeList1[] | void = await fetchList(clarifyingLink);
-      return setHomeReviewArrDataDesk(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
-  // console.log(mobCatalCategoryData);
+  const {homeReviewArrDataList} = useTypedSelector((state) => state.listState)
+  const {getHomeReviewArrDataList} = useActions()
+
+
+
   useEffect(() => {
-    getData();
-    // console.log(mobCatalCategoryData);
+    getHomeReviewArrDataList()
   }, []);
 
   return (
@@ -58,7 +52,7 @@ const HomeReviewSliderDesk: React.FC = () => {
           onSwiper={setSwiper}
           className={clsx('mySwiper', styles.review_slider_wrapper)}
         >
-          {homeReviewArrDataDesk.map((slide) => (
+          {homeReviewArrDataList.map((slide) => (
             <SwiperSlide className={styles.slide} key={slide.id}>
               {(slideInfo) => (
                 <div

@@ -1,6 +1,8 @@
+import { Path } from '@remix-run/router/history.ts';
+
 export type TypeList1 = {
   id: number;
-  title: string;
+  title?: string;
   address?: string;
   text?: string;
   description?: string;
@@ -10,4 +12,12 @@ export type TypeList1 = {
   imgDesk?: string;
   alt?: string;
   avatar?: string;
+  to?: string | Partial<Path>;
+  list?: TypeList2[]
+
 };
+export type TypeList2 = {
+  id : number;
+  title : string;
+  to: string;
+}

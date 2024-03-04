@@ -10,16 +10,16 @@ export type props = {
 };
 
 const CatalogByBrandsList: React.FC<props> = (props) => {
-  const { list2 } = useTypedSelector((state) => state.listState);
-  const { getList2 } = useActions();
+  const { catalogByBrandsList } = useTypedSelector((state) => state.listState);
+  const { getCatalogByBrandsList } = useActions();
 
   useEffect(() => {
-    getList2();
+    getCatalogByBrandsList();
   }, []);
 
   return (
     <ul className={[styles.brand_list, props.positionList].join(' ')}>
-      {list2?.map((item) => (
+      {catalogByBrandsList?.map((item) => (
         <li
           key={item.id}
           className={[styles.brand_list_item, props.positionItem].join(' ')}

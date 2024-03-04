@@ -301,35 +301,107 @@
   "mobCatalCategoryData": [
     {
       "id": 1,
-      "title": "Catalog"
+      "title": "Catalog",
+      "to": "#",
+      "list": [
+        {
+          "id": 11,
+          "title": "New",
+          "to": "#"
+        },
+        {
+          "id": 12,
+          "title": "Tattoo kits",
+          "to": "#"
+        },
+        {
+          "id": 13,
+          "title": "Car tattoo",
+          "to": "#"
+        },
+        {
+          "id": 14,
+          "title": "Tattoo paints",
+          "to": "#"
+        },
+        {
+          "id": 15,
+          "title": "Tattoo needles",
+          "to": "#"
+        },
+        {
+          "id": 16,
+          "title": "Tattoo holders",
+          "to": "#"
+        },
+        {
+          "id": 17,
+          "title": "Tattoo tips",
+          "to": "#"
+        },
+        {
+          "id": 18,
+          "title": "Power supplies",
+          "to": "#"
+        },
+        {
+          "id": 19,
+          "title": "Pedals and wires",
+          "to": "#"
+        },
+        {
+          "id": 110,
+          "title": "Accessories",
+          "to": "#"
+        },
+        {
+          "id": 111,
+          "title": "Printers and tablets",
+          "to": "#"
+        },
+        {
+          "id": 112,
+          "title": "Сonsumables",
+          "to": "#"
+        }
+      ]
+    }
+  ],
+  "mobCatalCategoryData2": [
+    {
+      "id": 1,
+      "title": "Contacts",
+      "to": "#"
     },
     {
       "id": 2,
-      "title": "Contacts"
+      "title": "Promo codes",
+      "to": "/promo-codes"
     },
     {
       "id": 3,
-      "title": "Promo codes"
+      "title": "Discounts",
+      "to": "#"
     },
     {
       "id": 4,
-      "title": "Discounts"
+      "title": "Help",
+      "to": "/help"
     },
     {
       "id": 5,
-      "title": "Help"
+      "title": "About us",
+      "to": "#"
     },
     {
       "id": 6,
-      "title": "About Us"
+      "title": "Favorites",
+      "to": "#"
     },
     {
       "id": 7,
-      "title": "Favorites"
-    },
-    {
-      "id": 8,
-      "title": "Personal area"
+      "title": "Personal area",
+      "to": "#"
     }
   ],
   "productPreviewSliderData": [

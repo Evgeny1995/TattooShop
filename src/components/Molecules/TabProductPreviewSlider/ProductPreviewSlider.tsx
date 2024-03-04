@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -8,29 +8,21 @@ import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 import styles from './ProductPreviewSlider.module.scss';
 import './ProductPreviewSlider.scss';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
-import { TypeList1 } from '../../../types/list.ts';
-import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { useActions } from '../../../hooks/useActions.ts';
+import { getProductPreviewSliderDataList } from '../../../store/list/actions.ts';
+
+
 
 const ProductPreviewSlider: React.FC = () => {
-  const [productPreviewSliderArr, setProductPreviewSliderArr] = useState<
-    TypeList1[]
-  >([]);
 
   const [width] = useWindowResize();
 
-  const productPreviewSliderData = '/productPreviewSliderData';
-
-  const getData = async () => {
-    try {
-      const res = await fetchList(productPreviewSliderData);
-      setProductPreviewSliderArr(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+  const { productPreviewSliderDataList} = useTypedSelector((state) => state.listState);
+  const {getProductPreviewSliderDataList} = useActions();
 
   useEffect(() => {
-    getData();
+    getProductPreviewSliderDataList();
   }, []);
 
   return (
@@ -54,7 +46,7 @@ const ProductPreviewSlider: React.FC = () => {
         }}
         className="mySwiper"
       >
-        {productPreviewSliderArr.map((slide) => (
+        {productPreviewSliderDataList.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div className={styles.slide_container}>
               <h2 className={styles.slide_title}>{slide.title}</h2>
