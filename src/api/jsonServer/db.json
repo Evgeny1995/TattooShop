@@ -657,5 +657,53 @@
       "email": "@mark_love",
       "avatar": "src/assets/img/review/userAvatar1.png"
     }
-  ]
+  ],
+ "promoCodesDataList": [
+  {
+    "id": "1",
+    "img": "src/assets/img/promoCodes/1.png",
+    "title": "Pack 'Summer'",
+    "text1": "The hottest summer of the century does not want to go away and gives you new colors until the end of the season.",
+    "text2": "When purchasing from 5500₽ you will receive a 1% discount on absolutely any product! Hurry up to color your life with the helmets of summer!"
+  },
+  {
+    "id": "2",
+    "img": "src/assets/img/promoCodes/2.png",
+    "title": "Pack 'Black swan'",
+    "text1": "Tattoo set + 2 packs, 2 needles",
+    "text2": "Especially for the bold and daring, there is a super advantageous offer: when you buy two tattoo kits and two packs of needles, you will receive a full 5% discount on the design of your dreams.",
+    "text3": "Take action and you will be invincible!"
+  },
+  {
+    "id": "3",
+    "img": "src/assets/img/promoCodes/3.png",
+    "title": "Pack 'Porcupine'",
+    "text1": "5 needles + 5 tips",
+    "text2": "When purchasing from 5500₽ you will receive a 1% discount on absolutely any product! Hurry up to color your life with the helmets of summer!",
+    "text3": "Time to prove yourself, don`t miss the moment!"
+  },
+  {
+    "id": "4",
+    "img": "src/assets/img/promoCodes/4.png",
+    "title": "Pack 'Summer'",
+    "text1": "The hottest summer of the century does not want to go away and gives you new colors until the end of the season.",
+    "text2": "When purchasing from 5500₽ you will receive a 1% discount on absolutely any product! Hurry up to color your life with the helmets of summer!"
+  },
+  {
+    "id": "5",
+    "img": "src/assets/img/promoCodes/5.png",
+    "title": "Pack 'Black swan'",
+    "text1": "Tattoo set + 2 packs, 2 needles",
+    "text2": "Especially for the bold and daring, there is a super advantageous offer: when you buy two tattoo kits and two packs of needles, you will receive a full 5% discount on the design of your dreams.",
+    "text3": "Take action and you will be invincible!"
+  },
+  {
+    "id": "6",
+    "img": "src/assets/img/promoCodes/6.png",
+    "title": "Pack 'Porcupine'",
+    "text1": "5 needles + 5 tips",
+    "text2": "When purchasing from 5500₽ you will receive a 1% discount on absolutely any product! Hurry up to color your life with the helmets of summer!",
+    "text3": "Time to prove yourself, don`t miss the moment!"
+  }
+ ]
 }

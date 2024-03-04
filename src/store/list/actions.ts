@@ -128,6 +128,20 @@ export const getHomeSeasonalOffersDataList  = () => {
   };
 };
 
+export const getMobTabHomePopularBrandsArrList  = () => {
+  return async (dispatch: Dispatch<listActionType>) => {
+    try {
+      const response = await axiosApi.get(`/mobTabHomePopularBrandsArr`);
+      dispatch({
+        type: ListActionType.SET_MOB_TAB_HOME_POPULAR_BRANDS_ARR_LIST,
+        payload: response.data,
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  };
+};
+
 export const getDeskHomePopularBrandsArrList  = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
@@ -148,6 +162,20 @@ export const getHomeReviewArrDataList  = () => {
       const response = await axiosApi.get(`/homeReviewArrData`);
       dispatch({
         type: ListActionType.SET_HOME_REVIEW_ARR_DATA_LIST,
+        payload: response.data,
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  };
+};
+
+export const getPromoCodesDataList  = () => {
+  return async (dispatch: Dispatch<listActionType>) => {
+    try {
+      const response = await axiosApi.get(`/promoCodesDataList`);
+      dispatch({
+        type: ListActionType.SET_PROMO_CODES_DATA_LIST,
         payload: response.data,
       });
     } catch (e) {

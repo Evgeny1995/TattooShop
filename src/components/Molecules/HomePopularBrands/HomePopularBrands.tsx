@@ -5,16 +5,17 @@ import HomePopularBrandsDeskSlider from '../HomePopularBrandsDeskSlider/HomePopu
 import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
-import { getHomeSeasonalOffersDataList } from '../../../store/list/actions.ts';
+import { getHomeSeasonalOffersDataList, getMobTabHomePopularBrandsArrList } from '../../../store/list/actions.ts';
 import { useActions } from '../../../hooks/useActions.ts';
+import { Link } from 'react-router-dom';
 
 const HomePopularBrands: React.FC = () => {
   const [width] = useWindowResize();
   const {mobTabHomePopularBrandsArrList} = useTypedSelector((state) => state.listState)
-  const {getHomeSeasonalOffersDataList} = useActions();
+  const {getMobTabHomePopularBrandsArrList} = useActions();
 
   useEffect(() => {
-    getHomeSeasonalOffersDataList()
+    getMobTabHomePopularBrandsArrList()
   }, []);
 
   return (
@@ -29,12 +30,12 @@ const HomePopularBrands: React.FC = () => {
         <ul className={styles.popular_brands_list}>
           {mobTabHomePopularBrandsArrList.map((item) => (
             <li className={styles.list_item} key={item.id}>
-              <a className={styles.item_links} href="#">
+              <Link to={'/'} className={styles.item_links}  >
                 <img
                   src={width <= 768 ? item.imgMob : item.imgTab}
                   alt={item.alt}
                 />
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

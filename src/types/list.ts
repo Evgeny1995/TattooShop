@@ -14,7 +14,10 @@ export type TypeList1 = {
   avatar?: string;
   to?: string | Partial<Path>;
   list?: TypeList2[]
-
+  img?: string;
+  text1?: string;
+  text2?: string;
+  text3?: string;
 };
 export type TypeList2 = {
   id : number;
