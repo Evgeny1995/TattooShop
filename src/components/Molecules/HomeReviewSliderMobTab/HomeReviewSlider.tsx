@@ -10,21 +10,17 @@ import './HomeReviewSlider.scss';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { getHomeReviewArrDataList } from '../../../store/list/actions.ts';
+import { useActions } from '../../../hooks/useActions.ts';
 
 const HomeReviewSliderMobTab: React.FC = () => {
-  const clarifyingLink = '/homeReviewArrData';
-  const [homeReviewArrData, setHomeReviewArrData] = useState<TypeList1[]>([]);
-  const getData = async () => {
-    try {
-      const res = await fetchList(clarifyingLink);
-      return setHomeReviewArrData(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+  const {homeReviewArrDataList} = useTypedSelector((state) => state.listState)
+  const {getHomeReviewArrDataList} = useActions()
+
 
   useEffect(() => {
-    getData();
+    getHomeReviewArrDataList()
   }, []);
 
   return (
@@ -54,7 +50,7 @@ const HomeReviewSliderMobTab: React.FC = () => {
         }}
         className="mySwiper"
       >
-        {homeReviewArrData.map((slide) => (
+        {homeReviewArrDataList.map((slide) => (
           <SwiperSlide className={styles.slide} key={slide.id}>
             {(slideData) => (
               <div

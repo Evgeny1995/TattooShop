@@ -2,28 +2,21 @@ import React, { useEffect, useState } from 'react';
 import styles from './HomePopularbrandsSliderList.module.scss';
 import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { getDeskHomePopularBrandsArrList } from '../../../store/list/actions.ts';
+import { useActions } from '../../../hooks/useActions.ts';
 
 const HomePopularbrandsSliderList: React.FC = () => {
-  const clarifyingLink = '/deskHomePopularBrandsArr';
-  const [deskHomePopularBrandsArr, getDeskHomePopularBrandsArr] = useState<
-    TypeList1[]
-  >([]);
-  const getData = async () => {
-    try {
-      const res = await fetchList(clarifyingLink);
-      return getDeskHomePopularBrandsArr(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+  const {deskHomePopularBrandsArrList} = useTypedSelector((state) => state.listState)
+  const {getDeskHomePopularBrandsArrList} = useActions()
 
   useEffect(() => {
-    getData();
+    getDeskHomePopularBrandsArrList()
   }, []);
 
   return (
     <ul className={styles.slide_list}>
-      {deskHomePopularBrandsArr.map((item) => (
+      {deskHomePopularBrandsArrList.map((item) => (
         <li className={styles.slide_list_item} key={item.id}>
           <a className={styles.slide_list_links} href="#">
             <img src={item.imgDesk} alt={item.alt} />

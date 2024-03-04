@@ -3,22 +3,23 @@ import styles from './HeaderCatalogNestedList.module.scss';
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
 import { useActions } from '../../../hooks/useActions.ts';
 
+
 export type props = {
   position: string;
   color: string;
 };
 
 const HeaderCatalogNestedList: React.FC<props> = (props) => {
-  const { list } = useTypedSelector((state) => state.listState);
-  const { getList } = useActions();
+  const { catalogNestedList } = useTypedSelector((state) => state.listState);
+  const { getCatalogNestedList } = useActions();
 
   useEffect(() => {
-    getList();
+    getCatalogNestedList();
   }, []);
 
   return (
     <ul className={props.position}>
-      {list?.map((item) => (
+      {catalogNestedList?.map((item) => (
         <li className={styles.nested_item} key={item.id}>
           <a className={[styles.nested_links, props.color].join(' ')}>
             {item.title}

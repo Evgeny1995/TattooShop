@@ -4,25 +4,17 @@ import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
 import HomePopularBrandsDeskSlider from '../HomePopularBrandsDeskSlider/HomePopularBrandsDeskSlider.tsx';
 import { TypeList1 } from '../../../types/list.ts';
 import { fetchList } from '../../../api/Requests/Requests.ts';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import { getHomeSeasonalOffersDataList } from '../../../store/list/actions.ts';
+import { useActions } from '../../../hooks/useActions.ts';
 
 const HomePopularBrands: React.FC = () => {
   const [width] = useWindowResize();
+  const {mobTabHomePopularBrandsArrList} = useTypedSelector((state) => state.listState)
+  const {getHomeSeasonalOffersDataList} = useActions();
 
-  const mobTabHomePopularBrandsArrLink = '/mobTabHomePopularBrandsArr';
-  const [mobTabHomePopularBrandsData, setMobTabHomePopularBrandsData] =
-    useState<TypeList1[]>([]);
-  const getData = async () => {
-    try {
-      const res = await fetchList(mobTabHomePopularBrandsArrLink);
-      return setMobTabHomePopularBrandsData(res);
-    } catch (e) {
-      console.log(e);
-    }
-  };
-  // console.log(mobCatalCategoryData);
   useEffect(() => {
-    getData();
-    // console.log(mobCatalCategoryData);
+    getHomeSeasonalOffersDataList()
   }, []);
 
   return (
@@ -35,7 +27,7 @@ const HomePopularBrands: React.FC = () => {
           </a>
         </div>
         <ul className={styles.popular_brands_list}>
-          {mobTabHomePopularBrandsData.map((item) => (
+          {mobTabHomePopularBrandsArrList.map((item) => (
             <li className={styles.list_item} key={item.id}>
               <a className={styles.item_links} href="#">
                 <img
