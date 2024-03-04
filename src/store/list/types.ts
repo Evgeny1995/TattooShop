@@ -15,6 +15,7 @@ export interface ListState {
   mobTabHomePopularBrandsArrList?: TypeList1[];
   deskHomePopularBrandsArrList?: TypeList1[];
   homeReviewArrDataList?: TypeList1[];
+  promoCodesDataList?:TypeList1[];
 
 }
 export enum ListActionType {
@@ -30,7 +31,7 @@ export enum ListActionType {
   SET_MOB_TAB_HOME_POPULAR_BRANDS_ARR_LIST = 'SET_MOB_TAB_HOME_POPULAR_BRANDS_ARR_LIST',
   SET_DESK_HOME_POPULAR_BRANDS_ARR_LIST = 'SET_DESK_HOME_POPULAR_BRANDS_ARR_LIST',
   SET_HOME_REVIEW_ARR_DATA_LIST = 'SET_HOME_REVIEW_ARR_DATA_LIST',
-
+  SET_PROMO_CODES_DATA_LIST = 'SET_PROMO_CODES_DATA_LIST',
 
 }
 
@@ -94,9 +95,14 @@ interface SetHomeReviewArrDataListAction {
   payload: TypeList1[];
 }
 
+interface SetPromoCodesDataListAction {
+  type: ListActionType.SET_PROMO_CODES_DATA_LIST;
+  payload: TypeList1[];
+}
+
 
 
 export type listActionType = SetCatalogNestedListAction | SetCatalogByBrandsListAction | SetDeskHeaderAnotherListAction | SetMobCatalogCategoryDataListAction | SetMobCatalogCategoryDataListAction2 |
   SetProductPreviewSliderDataListAction | SetCatalogDataMobTabListAction | SetCatalogDataDeskListAction |
   SetHomeSeasonalOffersDataListAction | SetMobTabHomePopularBrandsArrListAction | SetDeskHomePopularBrandsArrListAction
-   | SetHomeReviewArrDataListAction  ;
+   | SetHomeReviewArrDataListAction | SetPromoCodesDataListAction;

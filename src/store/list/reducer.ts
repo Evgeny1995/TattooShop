@@ -13,6 +13,7 @@ const initialState: ListState = {
   mobTabHomePopularBrandsArrList: [],
   deskHomePopularBrandsArrList: [],
   homeReviewArrDataList: [],
+  promoCodesDataList: [],
 
 };
 
@@ -56,6 +57,10 @@ export const listReducer = (
 
     case ListActionType.SET_HOME_REVIEW_ARR_DATA_LIST :
       return { ...state, homeReviewArrDataList: action.payload };
+
+    case ListActionType.SET_PROMO_CODES_DATA_LIST :
+      return { ...state, promoCodesDataList: action.payload };
+
 
     default:
       return state;
