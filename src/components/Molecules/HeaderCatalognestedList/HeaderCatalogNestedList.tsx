@@ -3,7 +3,6 @@ import styles from './HeaderCatalogNestedList.module.scss';
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
 import { useActions } from '../../../hooks/useActions.ts';
 
-
 export type props = {
   position: string;
   color: string;
@@ -11,10 +10,10 @@ export type props = {
 
 const HeaderCatalogNestedList: React.FC<props> = (props) => {
   const { catalogNestedList } = useTypedSelector((state) => state.listState);
-  const { getCatalogNestedList } = useActions();
+  const { getCatalNestedList } = useActions();
 
   useEffect(() => {
-    getCatalogNestedList();
+    getCatalNestedList();
   }, []);
 
   return (

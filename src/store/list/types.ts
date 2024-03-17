@@ -30,7 +30,7 @@ export enum ListActionType {
   SET_HOME_REVIEW_ARR_DATA_LIST = 'SET_HOME_REVIEW_ARR_DATA_LIST',
   SET_PROMO_CODES_DATA_LIST = 'SET_PROMO_CODES_DATA_LIST',
 }
-interface SetCatalogNestedListAction {
+interface SetCatalogNestedList {
   type: ListActionType.SET_CATALOG_NESTED_LIST;
   payload: TypeList1[];
 }
@@ -96,7 +96,7 @@ interface SetPromoCodesDataListAction {
 }
 
 export type listActionType =
-  | SetCatalogNestedListAction
+  | SetCatalogNestedList
   | SetCatalogByBrandsListAction
   | SetDeskHeaderAnotherListAction
   | SetMobCatalogCategoryDataListAction

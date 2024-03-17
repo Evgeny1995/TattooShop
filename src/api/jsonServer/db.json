@@ -709,6 +709,7 @@
   "goodsCards": [
     {
       "id": "1",
+      "remainingGoods": 10,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Foxx",
@@ -743,6 +744,7 @@
     },
     {
       "id": "2",
+      "remainingGoods": 11,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Foxx",
@@ -776,6 +778,7 @@
     },
     {
       "id": "3",
+      "remainingGoods": 12,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Foxx",
@@ -809,6 +812,7 @@
     },
     {
       "id": "4",
+      "remainingGoods": 13,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Skinductor",
@@ -842,6 +846,7 @@
     },
     {
       "id": "5",
+      "remainingGoods": 14,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Cnc",
@@ -875,6 +880,7 @@
     },
     {
       "id": "6",
+      "remainingGoods": 15,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Mustang Tattoo",
@@ -908,6 +914,7 @@
     },
     {
       "id": "7",
+      "remainingGoods": 16,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Verge",
@@ -941,6 +948,7 @@
     },
     {
       "id": "8",
+      "remainingGoods": 17,
       "categories": "CarTattoo",
       "type": "Rotary",
       "manufacturer": "Verge",
@@ -974,6 +982,7 @@
     },
     {
       "id": "9",
+      "remainingGoods": 18,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Verge",
@@ -1007,6 +1016,7 @@
     },
     {
       "id": "10",
+      "remainingGoods": 19,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Deuce Machines",
@@ -1040,6 +1050,7 @@
     },
     {
       "id": "11",
+      "remainingGoods": 20,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Cyborg Machines",
@@ -1073,6 +1084,7 @@
     },
     {
       "id": "12",
+      "remainingGoods": 21,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Deuce Machines",
@@ -1106,6 +1118,7 @@
     },
     {
       "id": "13",
+      "remainingGoods": 22,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Сheyenne",
@@ -1139,6 +1152,7 @@
     },
     {
       "id": "14",
+      "remainingGoods": 23,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Сheyenne",
@@ -1172,6 +1186,7 @@
     },
     {
       "id": "15",
+      "remainingGoods": 24,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Сheyenne",
@@ -1205,6 +1220,7 @@
     },
     {
       "id": "16",
+      "remainingGoods": 25,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Ink Machines",
@@ -1238,6 +1254,7 @@
     },
     {
       "id": "17",
+      "remainingGoods": 26,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Ink Machines",
@@ -1271,6 +1288,7 @@
     },
     {
       "id": "18",
+      "remainingGoods": 27,
       "categories": "CarTattoo",
       "type": "Induction",
       "manufacturer": "Ink Machines",
@@ -1304,6 +1322,7 @@
     },
     {
       "id": "19",
+      "remainingGoods": 28,
       "categories": "TattooNeedles",
       "manufacturer": "Kwadron",
       "deliberately": "",
@@ -1336,6 +1355,7 @@
     },
     {
       "id": "20",
+      "remainingGoods": 29,
       "categories": "TattooNeedles",
       "manufacturer": "Kwadron",
       "deliberately": "",
@@ -1368,6 +1388,7 @@
     },
     {
       "id": "21",
+      "remainingGoods": 30,
       "categories": "TattooNeedles",
       "manufacturer": "Kwadron",
       "deliberately": "",
@@ -1400,6 +1421,7 @@
     },
     {
       "id": "22",
+      "remainingGoods": 30,
       "categories": "Gloves",
       "manufacturer": "",
       "deliberately": "",
@@ -1431,6 +1453,7 @@
     },
     {
       "id": "23",
+      "remainingGoods": 31,
       "categories": "Сartridges",
       "manufacturer": "Forever Grips",
       "deliberately": "",

@@ -2,6 +2,7 @@ import { Path } from '@remix-run/router/history.ts';
 
 export type TypeList1 = {
   id: number;
+  remainingGoods?: number;
   title?: string;
   address?: string;
   text?: string;
