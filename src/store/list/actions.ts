@@ -16,7 +16,7 @@ export const getCatalogNestedList = () => {
   };
 };
 
-export const getCatalogByBrandsList  = () => {
+export const getCatalogByBrandsList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/brandsList`);
@@ -72,7 +72,7 @@ export const getMobCatalogCategoryDataList2 = () => {
   };
 };
 
-export const getProductPreviewSliderDataList  = () => {
+export const getProductPreviewSliderDataList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/productPreviewSliderData`);
@@ -86,7 +86,7 @@ export const getProductPreviewSliderDataList  = () => {
   };
 };
 
-export const getCatalogDataMobTabList  = () => {
+export const getCatalogDataMobTabList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/catalogListDataMobTab`);
@@ -100,7 +100,7 @@ export const getCatalogDataMobTabList  = () => {
   };
 };
 
-export const getCatalogDataDeskList  = () => {
+export const getCatalogDataDeskList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/catalogListDataDesk`);
@@ -114,7 +114,7 @@ export const getCatalogDataDeskList  = () => {
   };
 };
 
-export const getHomeSeasonalOffersDataList  = () => {
+export const getHomeSeasonalOffersDataList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/homeSeasonalOffersData`);
@@ -128,7 +128,7 @@ export const getHomeSeasonalOffersDataList  = () => {
   };
 };
 
-export const getMobTabHomePopularBrandsArrList  = () => {
+export const getMobTabHomePopularBrandsArrList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/mobTabHomePopularBrandsArr`);
@@ -142,7 +142,7 @@ export const getMobTabHomePopularBrandsArrList  = () => {
   };
 };
 
-export const getDeskHomePopularBrandsArrList  = () => {
+export const getDeskHomePopularBrandsArrList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/deskHomePopularBrandsArr`);
@@ -156,7 +156,7 @@ export const getDeskHomePopularBrandsArrList  = () => {
   };
 };
 
-export const getHomeReviewArrDataList  = () => {
+export const getHomeReviewArrDataList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/homeReviewArrData`);
@@ -170,7 +170,7 @@ export const getHomeReviewArrDataList  = () => {
   };
 };
 
-export const getPromoCodesDataList  = () => {
+export const getPromoCodesDataList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/promoCodesDataList`);
@@ -183,8 +183,6 @@ export const getPromoCodesDataList  = () => {
     }
   };
 };
-
-
 
 // Action Creator
 // Action

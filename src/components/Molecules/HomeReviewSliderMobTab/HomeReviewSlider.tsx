@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import styles from './HomeReviewSlider.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,19 +8,19 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './HomeReviewSlider.scss';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import { TypeList1 } from '../../../types/list.ts';
-import { fetchList } from '../../../api/Requests/Requests.ts';
+
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
-import { getHomeReviewArrDataList } from '../../../store/list/actions.ts';
+
 import { useActions } from '../../../hooks/useActions.ts';
 
 const HomeReviewSliderMobTab: React.FC = () => {
-  const {homeReviewArrDataList} = useTypedSelector((state) => state.listState)
-  const {getHomeReviewArrDataList} = useActions()
-
+  const { homeReviewArrDataList } = useTypedSelector(
+    (state) => state.listState,
+  );
+  const { getHomeReviewArrDataList } = useActions();
 
   useEffect(() => {
-    getHomeReviewArrDataList()
+    getHomeReviewArrDataList();
   }, []);
 
   return (
@@ -50,7 +50,7 @@ const HomeReviewSliderMobTab: React.FC = () => {
         }}
         className="mySwiper"
       >
-        {homeReviewArrDataList.map((slide) => (
+        {homeReviewArrDataList?.map((slide) => (
           <SwiperSlide className={styles.slide} key={slide.id}>
             {(slideData) => (
               <div

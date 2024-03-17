@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -10,16 +10,14 @@ import './ProductPreviewSlider.scss';
 import { useWindowResize } from '../../../hooks/useWindowResize.tsx';
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
 import { useActions } from '../../../hooks/useActions.ts';
-import { getProductPreviewSliderDataList } from '../../../store/list/actions.ts';
-
-
 
 const ProductPreviewSlider: React.FC = () => {
-
   const [width] = useWindowResize();
 
-  const { productPreviewSliderDataList} = useTypedSelector((state) => state.listState);
-  const {getProductPreviewSliderDataList} = useActions();
+  const { productPreviewSliderDataList } = useTypedSelector(
+    (state) => state.listState,
+  );
+  const { getProductPreviewSliderDataList } = useActions();
 
   useEffect(() => {
     getProductPreviewSliderDataList();
@@ -46,7 +44,7 @@ const ProductPreviewSlider: React.FC = () => {
         }}
         className="mySwiper"
       >
-        {productPreviewSliderDataList.map((slide) => (
+        {productPreviewSliderDataList?.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div className={styles.slide_container}>
               <h2 className={styles.slide_title}>{slide.title}</h2>

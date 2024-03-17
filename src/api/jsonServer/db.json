@@ -371,7 +371,7 @@
     {
       "id": 1,
       "title": "Contacts",
-      "to": "#"
+      "to": "/"
     },
     {
       "id": 2,
@@ -381,7 +381,7 @@
     {
       "id": 3,
       "title": "Discounts",
-      "to": "#"
+      "to": "/"
     },
     {
       "id": 4,
@@ -391,17 +391,17 @@
     {
       "id": 5,
       "title": "About us",
-      "to": "#"
+      "to": "/"
     },
     {
       "id": 6,
       "title": "Favorites",
-      "to": "#"
+      "to": "/"
     },
     {
       "id": 7,
       "title": "Personal area",
-      "to": "#"
+      "to": "/"
     }
   ],
   "productPreviewSliderData": [
@@ -705,5 +705,761 @@
     "text2": "When purchasing from 5500₽ you will receive a 1% discount on absolutely any product! Hurry up to color your life with the helmets of summer!",
     "text3": "Time to prove yourself, don`t miss the moment!"
   }
- ]
+ ],
+  "goodsCards": [
+    {
+      "id": "1",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Foxx",
+      "deliberately": "",
+      "numberOfSales": 25,
+      "rating": 1,
+      "img": "src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png"
+        }
+      ],
+      "title": "Foxxx Kitsune Mini Black Vintage RCA",
+      "price": 6000,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+
+    },
+    {
+      "id": "2",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Foxx",
+      "deliberately": "",
+      "numberOfSales": 5,
+      "rating": 5,
+      "img": "src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png"
+        }
+      ],
+      "title": "Foxxx Viper Fox Golden Vintage Lot #1 RCA",
+      "price": 8730,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "3",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Foxx",
+      "deliberately": "",
+      "numberOfSales": 66,
+      "rating": 4,
+      "img": "src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png"
+        }
+      ],
+      "title": "Foxxx Kitsune Mini Black Vintage RCA",
+      "price": 65305,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "4",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Skinductor",
+      "deliberately": "",
+      "numberOfSales": 7,
+      "rating": 11,
+      "img": "src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png"
+        }
+      ],
+      "title": "Skinductor Vertigo Long Stroke",
+      "price": 14550,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "5",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Cnc",
+      "deliberately": "",
+      "numberOfSales": 8,
+      "rating": 2,
+      "img": "src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png"
+        }
+      ],
+      "title": "CNC X-WE Wireless Tattoo Pen",
+      "price": 24444,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "6",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Mustang Tattoo",
+      "deliberately": "",
+      "numberOfSales": 3,
+      "rating": 3,
+      "img": "src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png"
+        }
+      ],
+      "title": "MT Vader Pen MT RCA Cord PRO 2000.135",
+      "price": 19400,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "7",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Verge",
+      "deliberately": "",
+      "numberOfSales": 46,
+      "rating": 7,
+      "img": "src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png"
+        }
+      ],
+      "title": "Verge Direct 2.1 Black",
+      "price": 11000,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "8",
+      "categories": "CarTattoo",
+      "type": "Rotary",
+      "manufacturer": "Verge",
+      "deliberately": "",
+      "numberOfSales": 95,
+      "rating": 6,
+      "img": "src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png"
+        }
+      ],
+      "title": "Verge Direct 2 Black RCA",
+      "price": 10900,
+      "sales": true,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "9",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Verge",
+      "deliberately": "",
+      "numberOfSales": 35,
+      "rating": 8,
+      "img": "src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png"
+        }
+      ],
+      "title": "Verge Direct 2.1 Pink gip EGO 4 mm liners",
+      "price":2037,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "10",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Deuce Machines",
+      "deliberately": "",
+      "numberOfSales": 13,
+      "rating": 13,
+      "img": "src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png"
+        }
+      ],
+      "title": "Deuce Machines Direct Drive #7 RCA Samurai",
+      "price": 8000,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "11",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Cyborg Machines",
+      "deliberately": "",
+      "numberOfSales": 73,
+      "rating": 13,
+      "img": "src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png"
+        }
+      ],
+      "title": "Cyborg Alter Rotary Axis Sexy Nymph",
+      "price": 11000,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "12",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Deuce Machines",
+      "deliberately": "",
+      "numberOfSales": 59,
+      "rating": 9,
+      "img": "src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png"
+        }
+      ],
+      "title": "Verge Direct 2.1 Pink gip EGO 4 mm liners",
+      "price": 10900,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "13",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Сheyenne",
+      "deliberately": "",
+      "numberOfSales": 61,
+      "rating": 15,
+      "img": "src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg"
+        }
+      ],
+      "title": "HAWK Pen Unio",
+      "price": 92000,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "14",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Сheyenne",
+      "deliberately": "",
+      "numberOfSales": 85,
+      "rating": 10,
+      "img": "src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg"
+        }
+      ],
+      "title": "Hawk Spirit Purple",
+      "price": 28175,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "15",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Сheyenne",
+      "deliberately": "",
+      "numberOfSales": 4,
+      "rating": 17,
+      "img": "src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg"
+        }
+      ],
+      "title": "Сheyenne sol nova unlimited",
+      "price": 117700,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "16",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Ink Machines",
+      "deliberately": "",
+      "numberOfSales": 63,
+      "rating": 16,
+      "img": "src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg"
+        }
+      ],
+      "title": "Deuce Machines Rotary Skull Edition RCA",
+      "price": 8000,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "17",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Ink Machines",
+      "deliberately": "",
+      "numberOfSales": 71,
+      "rating": 17,
+      "img": "src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg"
+        }
+      ],
+      "title": "Linx Rotary Tattoo Machine",
+      "price": 11200,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "18",
+      "categories": "CarTattoo",
+      "type": "Induction",
+      "manufacturer": "Ink Machines",
+      "deliberately": "",
+      "numberOfSales": 93,
+      "rating": 19,
+      "img": "src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg"
+        }
+      ],
+      "title": "World Famous Bala Machines Red",
+      "price": 7475,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "19",
+      "categories": "TattooNeedles",
+      "manufacturer": "Kwadron",
+      "deliberately": "",
+      "numberOfSales": 15,
+      "rating": 3,
+      "img": "src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg"
+        }
+      ],
+      "title": "Tattoo needles KWADRON 0.30mm Soft Edge Magnum - 7LT",
+      "price": 331,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "20",
+      "categories": "TattooNeedles",
+      "manufacturer": "Kwadron",
+      "deliberately": "",
+      "numberOfSales": 27,
+      "rating": 10,
+      "img": "src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg"
+        }
+      ],
+      "title": "Tattoo needles KWADRON 0.25mm long taper - 3RL",
+      "price": 221,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "21",
+      "categories": "TattooNeedles",
+      "manufacturer": "Kwadron",
+      "deliberately": "",
+      "numberOfSales": 42,
+      "rating": 7,
+      "img": "src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../../src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../../src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg"
+        },
+        {
+          "id": 3,
+          "img1": "../../src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg"
+        },
+        {
+          "id": 4,
+          "img1": "../../src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg"
+        }
+      ],
+      "title": "Tattoo needles Kwadron Flat 0.35mm long taper 13",
+      "price": 3675,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "22",
+      "categories": "Gloves",
+      "manufacturer": "",
+      "deliberately": "",
+      "numberOfSales": 83,
+      "rating": 6,
+      "img": "src/assets/img/cardsImg/nitrilGloves.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/nitrilGloves.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/nitrilGloves.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/nitrilGloves.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/nitrilGloves.png"
+        }
+      ],"title": "Nitrile gloves xl",
+      "price": 600,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    },
+    {
+      "id": "23",
+      "categories": "Сartridges",
+      "manufacturer": "Forever Grips",
+      "deliberately": "",
+      "numberOfSales": 2,
+      "rating": 9,
+      "img": "src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png",
+      "previewGalery": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png"
+        }
+      ],
+      "title": "Forever Cartridge Grip Ergo 30 mm fiery red",
+      "price": 2231,
+      "sales": false,
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
+      "descriptionSecond": ""
+    }
+  ]
 }
