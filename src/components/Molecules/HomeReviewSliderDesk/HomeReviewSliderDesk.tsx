@@ -34,14 +34,14 @@ const HomeReviewSliderDesk: React.FC = () => {
       <div className={styles.review_slider_container}>
         <Swiper
           modules={[Pagination]}
-          pagination={{
-            enabled: true,
-            el: '.swiper-pagination-review-desk',
-            clickable: true,
-            bulletElement: 'div',
-            bulletClass: 'swiper-bullets-review-desk',
-            bulletActiveClass: 'swiper-bullets-review-slider-active-desk',
-          }}
+          // pagination={{
+          // enabled: true,
+          // el: '.swiper-pagination-review-desk',
+          // clickable: true,
+          // bulletElement: 'div',
+          // bulletClass: 'swiper-bullets-review-desk',
+          // bulletActiveClass: 'swiper-bullets-review-slider-active-desk',
+
           slidesPerView={2}
           initialSlide={1}
           spaceBetween={20}

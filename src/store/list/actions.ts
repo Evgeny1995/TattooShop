@@ -2,7 +2,7 @@ import { Dispatch } from 'redux';
 import { axiosApi } from '../../api';
 import { ListActionType, listActionType } from './types.ts';
 
-export const getCatalogNestedList = () => {
+export const getCatalNestedList = () => {
   return async (dispatch: Dispatch<listActionType>) => {
     try {
       const response = await axiosApi.get(`/catalCategoryNestedData`);
