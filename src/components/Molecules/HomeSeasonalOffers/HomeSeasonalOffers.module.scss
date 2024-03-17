@@ -16,7 +16,6 @@
   margin: 0 auto;
   padding: 0;
   gap: 20px;
-
 }
 
 .list_item {
@@ -133,20 +132,15 @@
   //  }
   //}
 
-  .seasonal_offers_list {
-    justify-content: space-between;
-    width: 1920px;
-  }
-
   .list_item {
-    width: 945px;
+    width: 949.5px;
     height: 470px;
     transition: 2s;
 
     &:nth-child(1) {
       background: url('./../../../assets/img/HomeSesonalOffers/desk/paintsNith.png')
         center center no-repeat;
-      background-size: 949px 470px;
+      background-size: 945.5px 470px;
       transition: background-size 0.5s ease-in-out;
       text-align: center;
       display: flex;

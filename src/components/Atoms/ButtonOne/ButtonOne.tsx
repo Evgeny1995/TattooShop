@@ -5,6 +5,7 @@ export type props = {
   title?: string;
   className?: string;
   btnStyle?: string;
+  handleClick?: void;
 };
 
 const ButtonOne: React.FC<props> = (props) => {

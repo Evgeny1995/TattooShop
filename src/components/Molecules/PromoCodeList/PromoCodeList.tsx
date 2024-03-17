@@ -4,20 +4,18 @@ import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
 import { useActions } from '../../../hooks/useActions.ts';
 
-
 const PromoCodeList: React.FC = () => {
-  const {promoCodesDataList} = useTypedSelector((state) => state.listState)
-  const {getPromoCodesDataList} = useActions()
+  const { promoCodesDataList } = useTypedSelector((state) => state.listState);
+  const { getPromoCodesDataList } = useActions();
 
   useEffect(() => {
     getPromoCodesDataList();
   }, []);
 
-
   return (
     <div className={styles.promo_list_container}>
       <ul className={styles.promo_list}>
-        {promoCodesDataList.map((item) => (
+        {promoCodesDataList?.map((item) => (
           <li key={item.id} className={styles.promo_list_item}>
             <img className={styles.item_img} src={item.img} alt={item.title} />
             <div className={styles.text_container}>

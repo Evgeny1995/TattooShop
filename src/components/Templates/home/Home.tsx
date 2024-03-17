@@ -9,11 +9,13 @@ import HomePopularBrands from '../../Molecules/HomePopularBrands/HomePopularBran
 import HomeAboutCompany from '../../Molecules/HomeAboutCompany/HomeAboutCompany.tsx';
 import HomeReview from '../../Molecules/HomeReview/HomeReview.tsx';
 import HomeNewsSubscription from '../../Molecules/HomeNewsSubscription/HomeNewsSubscription.tsx';
+import HomeCategoriesList from '../../Molecules/HomeCategoriesList/HomeCategoriesList.tsx';
 
 const Home: React.FC = () => (
   <div>
     <Header />
     <ProductPreview />
+    <HomeCategoriesList />
     <HomeCatalog />
     <HomeSeasonalOffers />
     <HomePopularBrands />

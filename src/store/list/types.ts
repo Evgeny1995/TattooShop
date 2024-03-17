@@ -1,22 +1,19 @@
 import { TypeList1 } from '../../types/list.ts';
 
-
-
 export interface ListState {
   catalogNestedList?: TypeList1[];
   catalogByBrandsList?: TypeList1[];
   deskHeaderAnotherList?: TypeList1[];
   mobCatalogCategoryDataList?: TypeList1[];
   mobCatalogCategoryDataList2?: TypeList1[];
-  productPreviewSliderDataList?:TypeList1[];
+  productPreviewSliderDataList?: TypeList1[];
   catalogDataMobTabList?: TypeList1[];
   catalogDataDeskList?: TypeList1[];
   homeSeasonalOffersDataList?: TypeList1[];
   mobTabHomePopularBrandsArrList?: TypeList1[];
   deskHomePopularBrandsArrList?: TypeList1[];
   homeReviewArrDataList?: TypeList1[];
-  promoCodesDataList?:TypeList1[];
-
+  promoCodesDataList?: TypeList1[];
 }
 export enum ListActionType {
   SET_CATALOG_NESTED_LIST = 'SET_CATALOG_NESTED_LIST',
@@ -32,9 +29,7 @@ export enum ListActionType {
   SET_DESK_HOME_POPULAR_BRANDS_ARR_LIST = 'SET_DESK_HOME_POPULAR_BRANDS_ARR_LIST',
   SET_HOME_REVIEW_ARR_DATA_LIST = 'SET_HOME_REVIEW_ARR_DATA_LIST',
   SET_PROMO_CODES_DATA_LIST = 'SET_PROMO_CODES_DATA_LIST',
-
 }
-
 interface SetCatalogNestedListAction {
   type: ListActionType.SET_CATALOG_NESTED_LIST;
   payload: TypeList1[];
@@ -100,9 +95,17 @@ interface SetPromoCodesDataListAction {
   payload: TypeList1[];
 }
 
-
-
-export type listActionType = SetCatalogNestedListAction | SetCatalogByBrandsListAction | SetDeskHeaderAnotherListAction | SetMobCatalogCategoryDataListAction | SetMobCatalogCategoryDataListAction2 |
-  SetProductPreviewSliderDataListAction | SetCatalogDataMobTabListAction | SetCatalogDataDeskListAction |
-  SetHomeSeasonalOffersDataListAction | SetMobTabHomePopularBrandsArrListAction | SetDeskHomePopularBrandsArrListAction
-   | SetHomeReviewArrDataListAction | SetPromoCodesDataListAction;
+export type listActionType =
+  | SetCatalogNestedListAction
+  | SetCatalogByBrandsListAction
+  | SetDeskHeaderAnotherListAction
+  | SetMobCatalogCategoryDataListAction
+  | SetMobCatalogCategoryDataListAction2
+  | SetProductPreviewSliderDataListAction
+  | SetCatalogDataMobTabListAction
+  | SetCatalogDataDeskListAction
+  | SetHomeSeasonalOffersDataListAction
+  | SetMobTabHomePopularBrandsArrListAction
+  | SetDeskHomePopularBrandsArrListAction
+  | SetHomeReviewArrDataListAction
+  | SetPromoCodesDataListAction;

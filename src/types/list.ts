@@ -13,14 +13,30 @@ export type TypeList1 = {
   alt?: string;
   avatar?: string;
   to?: string | Partial<Path>;
-  list?: TypeList2[]
+  list?: TypeList2[];
   img?: string;
   text1?: string;
   text2?: string;
   text3?: string;
+  categories?: string;
+  type?: string;
+  manufacturer?: string;
+  deliberately?: string;
+  rating?: number;
+  price?: number;
+  numberOfSales?: number;
+  sales?: boolean;
+  descriptionFirst?: string;
+  descriptionSecond?: string;
+  previewGalery?: TypeList3[];
 };
 export type TypeList2 = {
-  id : number;
-  title : string;
+  id: number;
+  title: string;
   to: string;
-}
+};
+
+export type TypeList3 = {
+  id: number;
+  img1: string;
+};

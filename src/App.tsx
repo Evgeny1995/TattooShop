@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import PromoCodes from './components/Organisms/PromoCodes/PromoCodes.tsx';
 import NotFound from './components/Organisms/NotFound/NotFound.tsx';
 import Help from './components/Organisms/Help/Help.tsx';
+import Card from './components/Molecules/card/card.tsx';
 
 const App: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const App: React.FC = () => {
         <Route path="/promo-codes" element={<PromoCodes />} />
         <Route path="/help" element={<Help />} />
         <Route path="*" element={<NotFound />} />
-        футер
+        <Route path="/card/:id" element={<Card />} />
       </Routes>
     </div>
   );

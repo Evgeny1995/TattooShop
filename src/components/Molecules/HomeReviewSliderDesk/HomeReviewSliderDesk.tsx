@@ -5,11 +5,8 @@ import './HomeReviewSliderDesk.scss';
 import type { Swiper as SwiperClass } from 'swiper/types';
 import clsx from 'clsx';
 import BtnSquaredTriangle from '../../Atoms/BtnSquaredTriangle/BtnSquaredTriangle.tsx';
-import { TypeList1 } from '../../../types/list.ts';
-import { fetchList } from '../../../api/Requests/Requests.ts';
 import { Pagination } from 'swiper/modules';
 import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
-import { getHomeReviewArrDataList } from '../../../store/list/actions.ts';
 import { useActions } from '../../../hooks/useActions.ts';
 
 const HomeReviewSliderDesk: React.FC = () => {
@@ -23,13 +20,13 @@ const HomeReviewSliderDesk: React.FC = () => {
     swiper?.slidePrev();
   };
 
-  const {homeReviewArrDataList} = useTypedSelector((state) => state.listState)
-  const {getHomeReviewArrDataList} = useActions()
-
-
+  const { homeReviewArrDataList } = useTypedSelector(
+    (state) => state.listState,
+  );
+  const { getHomeReviewArrDataList } = useActions();
 
   useEffect(() => {
-    getHomeReviewArrDataList()
+    getHomeReviewArrDataList();
   }, []);
 
   return (
@@ -52,7 +49,7 @@ const HomeReviewSliderDesk: React.FC = () => {
           onSwiper={setSwiper}
           className={clsx('mySwiper', styles.review_slider_wrapper)}
         >
-          {homeReviewArrDataList.map((slide) => (
+          {homeReviewArrDataList?.map((slide) => (
             <SwiperSlide className={styles.slide} key={slide.id}>
               {(slideInfo) => (
                 <div
