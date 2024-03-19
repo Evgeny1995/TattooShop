@@ -13,8 +13,9 @@ export type props = {
 };
 
 const DeskHeaderAnotherList: React.FC<props> = (props) => {
-  // const deskNavList = '/deskNavList';
-  const { deskHeaderAnotherList } = useTypedSelector((state) => state.listState);
+  const { deskHeaderAnotherList } = useTypedSelector(
+    (state) => state.listState,
+  );
   const { getDeskHeaderAnotherList } = useActions();
 
   useEffect(() => {
@@ -28,7 +29,7 @@ const DeskHeaderAnotherList: React.FC<props> = (props) => {
         props.listStyle,
       ].join(' ')}
     >
-      { deskHeaderAnotherList?.map((item) => (
+      {deskHeaderAnotherList?.map((item) => (
         <li
           key={item.id}
           className={[

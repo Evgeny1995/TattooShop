@@ -58,9 +58,11 @@ const MobHeaderNavList: React.FC = () => {
       <ul className={styles.header_nav__list2}>
         {mobCatalogCategoryDataList2?.map((item2) => (
           <li key={item2.id} className={styles.nav_list__item}>
-            <Link to={item2.to} className={styles.mob_menu__nav_links}>
-              {item2.title}
-            </Link>
+            {item2.to && (
+              <Link to={item2.to} className={styles.mob_menu__nav_links}>
+                {item2.title}
+              </Link>
+            )}
           </li>
         ))}
       </ul>
