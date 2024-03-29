@@ -1,0 +1,736 @@
+.help_content_container {
+   background-color: #eeeeee;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 120px;
+}
+
+li {
+   margin-top: 2px;
+}
+
+.help_content {
+   padding: 0 20px;
+   width: 100%;
+   max-width: 728px;
+}
+
+.help_content a {
+   text-decoration: none;
+}
+
+.help_title {
+   color: #3e424b;
+   font-family: Forum;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   margin: 30px 0 0 0;
+   width: 200px;
+}
+
+.help_title_description {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   margin: 20px 0 0 0;
+}
+
+.help_maintenance_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28.75px;
+   margin: 60px 0 0 0;
+}
+
+.what_tattoo_machine_text {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 23px;
+   margin: 20px 0 0 0;
+}
+
+.induction_machine_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22.5px;
+   margin: 13px 0 0 0;
+}
+
+.induction_machine_list {
+   margin: 10px 0 0 0;
+   padding-left: 25px;
+}
+
+.induction_machine_item {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: -13px;
+   }
+}
+
+.rotary_machine_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22.5px;
+   margin: 13px 0 0 0;
+}
+
+.rotary_machine_list {
+   margin: 13px 0 0 0;
+   padding-left: 25px;
+}
+
+.rotary_machine_item {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: -13px;
+   }
+}
+
+.manufacturers_tattoo_machines_title {
+   color: #bb8c5f;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22.5px;
+   margin: 13px 0 0 0;
+}
+
+.manufacturers_tattoo_machines_list {
+   margin: 10px 0 0 0;
+   padding-left: 25px;
+}
+
+.manufacturers_tattoo_machines_item {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: -13px;
+   }
+}
+
+.tattoo_holders_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 23px;
+   margin: 20px 0 0 0;
+}
+
+.reusable_disposable_holders_tattoo_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22.5px;
+   margin: 15px 0 0 0;
+}
+
+.tattoo_holders_list {
+   margin: 10px 0 0 0;
+   padding-left: 25px;
+}
+
+.tattoo_holders_item {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: -13px;
+   }
+}
+
+.cartridges_needles_holders_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22.5px;
+   margin: 15px 0 0 0;
+}
+
+.cartridges_needles_holders_list {
+   margin: 10px 0 0 0;
+   padding-left: 25px;
+}
+
+.cartridges_needles_holders_item {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: -13px;
+   }
+}
+
+.tattoo_tips_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 23px;
+   margin: 20px 0 0 0;
+}
+
+.tattoo_tips_types_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22.5px;
+   margin: 15px 0 0 0;
+}
+
+.tattoo_tips_types_list {
+   margin: 20px 0 0 0;
+   padding-left: 25px;
+}
+
+.tattoo_tips_types_item {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: -13px;
+   }
+}
+
+.tattoo_machine_what_title {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28.75px;
+   margin: 15px 0 0 0;
+}
+
+.tattoo_machine_what_style p {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+}
+
+.tattoo_machine_what_style li {
+   color: #3e424b;
+   font-family: Jost;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.5px;
+   text-decoration: none;
+}
+
+.requirements_tattoo_machine_item {
+   position: relative;
+   padding-left: 25px;
+
+   &:before {
+      content: '';
+      position: absolute;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: #3e424b;
+      top: 9px;
+      left: 12px;
+   }
+}
+
+.main_tool_text {
+   margin: 20px 0 0 0;
+}
+
+.operating_principle_text {
+   margin: 20px 0 0 0;
+}
+
+.electrical_device_text {
+   margin: 20px 0 0 0;
+}
+
+.requirements_tattoo_machine_list {
+   margin: 20px 0 0 0;
+   padding-left: 0;
+}
+
+.requirements_tattoo_machine_item {
+   margin: 0;
+}
+
+.manufacturing_balance_text {
+   margin: 5px 0 0 0;
+}
+
+.tattoo_machine_img {
+   margin-top: 20px;
+   width: 100%;
+   max-width: 725px;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+@media (min-width: 768px) {
+   .help_content_container {
+      background-color: #eeeeee;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 160px;
+   }
+
+   li {
+      margin-top: 2px;
+   }
+
+   .help_content {
+      padding: 0 20px;
+      width: 100%;
+      max-width: 728px;
+   }
+
+   .help_content a {
+      text-decoration: none;
+   }
+
+   .help_title {
+      font-size: 40px;
+      line-height: 40px;
+      margin: 40px 0 0 0;
+      width: 50%;
+   }
+
+   .help_title_description {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      margin: 20px 0 0 0;
+   }
+
+   .help_maintenance_title {
+      font-size: 37px;
+      font-weight: 700;
+      line-height: 42.55px;
+      margin: 80px 0 0 0;
+   }
+
+   .what_tattoo_machine_text {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 28.75px;
+      margin: 40px 0 0 0;
+   }
+
+   .induction_machine_title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 25.5px;
+      margin: 13px 0 0 0;
+   }
+
+   .induction_machine_list {
+      margin: 10px 0 0 0;
+      padding-left: 25px;
+   }
+
+   .induction_machine_item {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      position: relative;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: -13px;
+      }
+   }
+
+   .rotary_machine_title {
+      font-size: 17px;
+      line-height: 25.5px;
+      margin: 13px 0 0 0;
+   }
+
+   .rotary_machine_list {
+      margin: 13px 0 0 0;
+      padding-left: 25px;
+   }
+
+   .rotary_machine_item {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      position: relative;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: -13px;
+      }
+   }
+
+   .manufacturers_tattoo_machines_title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 25.5px;
+      margin: 13px 0 0 0;
+   }
+
+   .manufacturers_tattoo_machines_list {
+      margin: 10px 0 0 0;
+      padding-left: 25px;
+   }
+
+   .manufacturers_tattoo_machines_item {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      position: relative;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: -13px;
+      }
+   }
+
+   .tattoo_holders_title {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 28.75px;
+      margin: 40px 0 0 0;
+   }
+
+   .reusable_disposable_holders_tattoo_title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 25.5px;
+      margin: 15px 0 0 0;
+   }
+
+   .tattoo_holders_list {
+      margin: 10px 0 0 0;
+      padding-left: 25px;
+   }
+
+   .tattoo_holders_item {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      position: relative;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: -13px;
+      }
+   }
+
+   .cartridges_needles_holders_title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 25.5px;
+      margin: 15px 0 0 0;
+   }
+
+   .cartridges_needles_holders_list {
+      margin: 10px 0 0 0;
+      padding-left: 25px;
+   }
+
+   .cartridges_needles_holders_item {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      position: relative;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: -13px;
+      }
+   }
+
+   .tattoo_tips_title {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 28.75px;
+      margin: 20px 0 0 0;
+   }
+
+   .tattoo_tips_types_title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 25.5px;
+      margin: 15px 0 0 0;
+   }
+
+   .tattoo_tips_types_list {
+      margin: 20px 0 0 0;
+      padding-left: 25px;
+   }
+
+   .tattoo_tips_types_item {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      position: relative;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: -13px;
+      }
+   }
+
+   .tattoo_machine_what_title {
+      font-size: 37px;
+      font-weight: 700;
+      line-height: 42.55px;
+      margin: 80px 0 0 0;
+   }
+
+   .tattoo_machine_what_style p {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+   }
+
+   .tattoo_machine_what_style li {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      text-decoration: none;
+   }
+
+   .requirements_tattoo_machine_item {
+      position: relative;
+      padding-left: 25px;
+
+      &:before {
+         content: '';
+         position: absolute;
+         border-radius: 100%;
+         width: 4px;
+         height: 4px;
+         background-color: #3e424b;
+         top: 9px;
+         left: 12px;
+      }
+   }
+
+   .main_tool_text {
+      margin: 20px 0 0 0;
+   }
+
+   .operating_principle_text {
+      margin: 20px 0 0 0;
+   }
+
+   .electrical_device_text {
+      margin: 20px 0 0 0;
+   }
+
+   .requirements_tattoo_machine_list {
+      margin: 20px 0 0 0;
+      padding-left: 0;
+   }
+
+   .requirements_tattoo_machine_item {
+      margin: 0;
+   }
+
+   .manufacturing_balance_text {
+      margin: 5px 0 0 0;
+   }
+
+   .tattoo_machine_img {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 725px;
+   }
+}
+
+@media (min-width: 1920px) {
+   .help_content_container {
+      padding-bottom: 200px;
+   }
+
+   .desk_border {
+      border-left: 1px solid #524336;
+      padding-left: 40px;
+      position: relative;
+      margin-left: 6px;
+
+      &:before {
+         content: '';
+         position: absolute;
+         top: -2px;
+         left: -5px;
+         width: 10px;
+         height: 10px;
+         background: url('../../../assets/svg/fdsfd.svg') center center
+            no-repeat;
+      }
+
+      &:after {
+         content: '';
+         position: absolute;
+         bottom: -2px;
+         left: -5px;
+         width: 10px;
+         height: 10px;
+         background: url('../../../assets/svg/fdsfd.svg') center center
+            no-repeat;
+         transform: rotate(180deg);
+      }
+   }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import styles from './Home.module.scss';
 import Header from '../../Organisms/Header/Header.tsx';
 import Footer from '../../Organisms/Footer/Footer.tsx';
 import ProductPreview from '../../Organisms/ProductPreview/ProductPreview.tsx';
@@ -12,18 +12,18 @@ import HomeNewsSubscription from '../../Molecules/HomeNewsSubscription/HomeNewsS
 import HomeCategoriesList from '../../Molecules/HomeCategoriesList/HomeCategoriesList.tsx';
 
 const Home: React.FC = () => (
-  <div>
-    <Header />
-    <ProductPreview />
-    <HomeCategoriesList />
-    <HomeCatalog />
-    <HomeSeasonalOffers />
-    <HomePopularBrands />
-    <HomeAboutCompany />
-    <HomeReview />
-    <HomeNewsSubscription />
-    <Footer />
-  </div>
+   <div className={styles.main_wrap}>
+      <Header />
+      <ProductPreview />
+      <HomeCategoriesList />
+      <HomeCatalog />
+      <HomeSeasonalOffers />
+      <HomePopularBrands />
+      <HomeAboutCompany />
+      <HomeReview />
+      <HomeNewsSubscription />
+      <Footer />
+   </div>
 );
 
 export default Home;
