@@ -1,0 +1,42 @@
+.counter_availability {
+   margin-top: 20px;
+}
+
+.counter_availability {
+}
+
+.decrement {
+   cursor: pointer;
+   border: none;
+   width: 15px;
+   height: 40px;
+   vertical-align: middle;
+   padding-bottom: 10px;
+}
+.count_inp {
+}
+
+.increment {
+   cursor: pointer;
+   border: none;
+   width: 15px;
+   height: 40px;
+   vertical-align: center;
+}
+
+.count_inp {
+   width: 40px;
+   height: 40px;
+   border: 1px solid #bb8c5f;
+   margin: 0 25px 0 25px;
+   outline: none;
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 24px;
+   color: #3e424b;
+   background-color: #eeeeee;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
