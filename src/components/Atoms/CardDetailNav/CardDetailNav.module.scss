@@ -1,0 +1,72 @@
+.card_detail_nav_wrap {
+   width: 100%;
+   margin: 0 auto 30px auto;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.card_detail_nav_container {
+   width: 100%;
+   max-width: 1216px;
+   margin: 0 auto;
+   display: flex;
+
+   overflow: scroll;
+}
+.card_detail_nav_container::-webkit-scrollbar {
+   width: 0;
+}
+.links {
+   color: #d0d0d0;
+   font-family: Jost;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.5px;
+   text-decoration: none;
+   display: inline;
+   white-space: nowrap;
+
+   &:hover {
+      color: #bb8c5f;
+   }
+
+   &:active {
+      color: #d0d0d0;
+   }
+}
+
+.card_detailodes_link {
+   color: #636b78;
+   font-family: Jost;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.5px;
+   text-decoration: none;
+}
+
+.minor {
+   color: #d0d0d0;
+   font-family: Jost;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.5px;
+   margin: 0 10px 0 10px;
+}
+
+.current_goods {
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 25px;
+   color: #636b78;
+   text-decoration: none;
+   white-space: nowrap;
+}
+@media (min-width: 768px) {
+   .card_detail_nav_wrap {
+      padding: 0;
+   }
+}

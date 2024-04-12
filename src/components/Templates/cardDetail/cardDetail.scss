@@ -1,0 +1,19 @@
+.swiper-pagination-mob-tab-cardDetail {
+   display: flex;
+   position: relative;
+   gap: 15px;
+   justify-content: center;
+   bottom: 15px !important;
+   z-index: 111111111;
+}
+.swiper-bullets-mob-tab-cardDetail {
+   position: relative;
+   width: 6px;
+   height: 6px;
+   background-color: #e3e3e3;
+}
+.swiper-bullets-mob-tab-cardDetail-slider-active {
+   width: 6px;
+   height: 6px;
+   background-color: #524336;
+}

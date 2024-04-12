@@ -1,0 +1,61 @@
+.about_good_wrap {
+   margin: 40px 0 0 0;
+   padding: 0 0 0 0;
+}
+
+.list {
+   display: flex;
+   overflow: scroll;
+   gap: 20px;
+   padding: 0 0 0 20px;
+   margin: 0;
+   height: 67px;
+}
+.list::-webkit-scrollbar {
+   width: 0;
+}
+.list_item {
+}
+
+.list_item:nth-last-child(1) {
+   margin: 0 20px 0 0;
+}
+
+.category_btn {
+   font-family: 'Jost', sans-serif;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 29px;
+   color: #3e424b;
+   outline: none;
+   border: none;
+   padding-bottom: 10px;
+}
+
+.active {
+   border-bottom: 2px solid #bb8c5f;
+   color: #bb8c5f;
+   position: relative;
+
+   &:before {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: -1px;
+      width: 10px;
+      height: 10px;
+      background-color: #bb8c5f;
+      transform: rotate(45deg);
+   }
+
+   &:after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      right: -1px;
+      width: 10px;
+      height: 10px;
+      background-color: #bb8c5f;
+      transform: rotate(45deg);
+   }
+}

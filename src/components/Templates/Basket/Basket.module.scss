@@ -1,0 +1,189 @@
+.backet_wrap {
+   background-color: #eeeeee;
+}
+
+.basket_content_wrap {
+   padding: 0 20px 0 20px;
+}
+.basket_title {
+   font-family: 'Forum', sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 25px;
+   color: #3e424b;
+}
+.goods_in_basket {
+}
+
+.basket_list {
+}
+.item {
+   margin: 20px 0;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 20px;
+   border-bottom: 2px solid #d0d0d0;
+   position: relative;
+   text-align: center;
+
+   &:before {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 5px;
+      height: 6px;
+      background: url('./../../../assets/svg/greyTriangleForTheLine.svg')
+         no-repeat center center;
+   }
+
+   &:after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      right: 0;
+      width: 5px;
+      height: 6px;
+      transform: rotate(180deg);
+      background: url('./../../../assets/svg/greyTriangleForTheLine.svg')
+         no-repeat center center;
+   }
+}
+
+.item:last-child {
+   border: none;
+}
+
+.basket_list_firs_block {
+   display: flex;
+   justify-content: space-between;
+   max-width: 403px;
+}
+
+.img_goods {
+   width: 80px;
+   height: 80px;
+   object-fit: cover;
+}
+
+.good_description {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: left;
+}
+
+.good_title {
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 21px;
+   color: #3e424b;
+}
+.good_prise_for_unit {
+   white-space: nowrap;
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 21px;
+   color: #636b78;
+}
+.btn_del_goods {
+   border: none;
+   background: transparent;
+   outline: none;
+   width: 15px;
+   height: 35px;
+   cursor: pointer;
+}
+
+.btn_del_goods_tab_desk {
+   display: none;
+}
+
+.basket_list_second_block {
+   max-width: 325px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.position_counter {
+   display: flex;
+}
+
+.good_prise_for_all_units {
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 21px;
+   text-align: right;
+   color: #3e424b;
+}
+
+@media (min-width: 728px) {
+   .basket_list {
+      margin: 0 auto;
+      min-width: 688px;
+      max-width: 804px;
+   }
+
+   .item {
+      min-width: 688px;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 50px;
+   }
+
+   .img_goods {
+      width: 103px;
+      height: 103px;
+   }
+
+   .good_description {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      align-items: center;
+      gap: 42px;
+   }
+
+   .good_title {
+      min-width: 145px;
+   }
+
+   .btn_del_goods {
+      display: none;
+   }
+
+   .btn_del_goods_tab_desk {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      background: transparent;
+      outline: none;
+      width: 15px;
+      height: 35px;
+      cursor: pointer;
+   }
+
+   .basket_list_firs_block {
+      width: 403px;
+      gap: 20px;
+   }
+
+   .basket_list_second_block {
+      width: 325px;
+      margin: 0;
+      align-items: center;
+   }
+}
+
+@media (min-width: 768px) {
+   .basket_list {
+      margin: 0 auto;
+      min-width: 728px;
+      max-width: 804px;
+   }
+}
