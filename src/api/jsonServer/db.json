@@ -735,12 +735,36 @@
           "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniBlackVintageRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Foxxx Kitsune Mini Black Vintage RCA",
       "price": 6000,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
-
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "2",
@@ -770,11 +794,36 @@
           "img1": "../src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1":  "../src/assets/img/cardsImg/Foxx/FoxxxViperFoxGoldenVintageLotRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Foxxx Viper Fox Golden Vintage Lot #1 RCA",
       "price": 8730,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "3",
@@ -804,11 +853,36 @@
           "img1": "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1":  "../src/assets/img/cardsImg/Foxx/FoxxxKitsuneMiniVintageAgingWithGoldRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Foxxx Kitsune Mini Black Vintage RCA",
       "price": 65305,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "4",
@@ -838,11 +912,36 @@
           "img1": "../src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1":  "../src/assets/img/cardsImg/skinductor/SkinductorVertigoLongStroke.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Skinductor Vertigo Long Stroke",
       "price": 14550,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "5",
@@ -872,11 +971,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1":  "../src/assets/img/cardsImg/KyroSumi/CNCX-WEWirelessTattooPen.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "CNC X-WE Wireless Tattoo Pen",
       "price": 24444,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "6",
@@ -906,11 +1030,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/MTVaderPenMTRCACordPRO2000.135.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "MT Vader Pen MT RCA Cord PRO 2000.135",
       "price": 19400,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "7",
@@ -940,11 +1089,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2.1Black.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Verge Direct 2.1 Black",
       "price": 11000,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "8",
@@ -974,11 +1148,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect2BlackRCA.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Verge Direct 2 Black RCA",
       "price": 10900,
       "sales": true,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "9",
@@ -1008,11 +1207,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1PinkgipEGO4mmliners.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Verge Direct 2.1 Pink gip EGO 4 mm liners",
       "price":2037,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "10",
@@ -1042,11 +1266,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/DeuceMachinesDirectDrive1.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Deuce Machines Direct Drive #7 RCA Samurai",
       "price": 8000,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "11",
@@ -1076,11 +1325,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/CyborgMachinesAlterRotaryAxisCross SexyNymph.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Cyborg Alter Rotary Axis Sexy Nymph",
       "price": 11000,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "12",
@@ -1110,11 +1384,36 @@
           "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/KyroSumi/VergeDirect 2.1Gunmetal.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Verge Direct 2.1 Pink gip EGO 4 mm liners",
       "price": 10900,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "13",
@@ -1144,11 +1443,36 @@
           "img1": "../src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HAWKPenUnio.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "HAWK Pen Unio",
       "price": 92000,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "14",
@@ -1178,11 +1502,36 @@
           "img1": "../src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/cheyenne/HawkSpiritPurple.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Hawk Spirit Purple",
       "price": 28175,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "15",
@@ -1212,11 +1561,36 @@
           "img1": "../src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/cheyenne/SOLNOVAUNLIMITED.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Сheyenne sol nova unlimited",
       "price": 117700,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "16",
@@ -1246,11 +1620,36 @@
           "img1": "../src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/inkMachines/DeuceMachinesRotarySkullEditionRCA.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Deuce Machines Rotary Skull Edition RCA",
       "price": 8000,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "17",
@@ -1280,11 +1679,36 @@
           "img1": "../src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/inkMachines/LinxRotaryTattooMachine-IkarRotaryBluePinkIkarClips.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Linx Rotary Tattoo Machine",
       "price": 11200,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "18",
@@ -1314,11 +1738,36 @@
           "img1": "../src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/inkMachines/WorldFamousBalaMachinesRed.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "World Famous Bala Machines Red",
       "price": 7475,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "19",
@@ -1347,11 +1796,36 @@
           "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.30mmSoftEdgeMagnum-7LT.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Tattoo needles KWADRON 0.30mm Magnum - 7LT",
       "price": 331,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "20",
@@ -1380,11 +1854,36 @@
           "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/needlesKwadron/KWADRON0.25mmlongtaper-3RL.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Tattoo needles KWADRON 0.25mm long taper - 3RL",
       "price": 221,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "21",
@@ -1413,11 +1912,36 @@
           "img1": "../../src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1":  "../../src/assets/img/cardsImg/needlesKwadron/KWADRON0.35mmlongtaper13Flat.jpg"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Tattoo needles Kwadron Flat 0.35mm long taper 13",
       "price": 3675,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "22",
@@ -1445,11 +1969,37 @@
           "id": 4,
           "img1": "../src/assets/img/cardsImg/nitrilGloves.png"
         }
-      ],"title": "Nitrile gloves xl",
+      ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/nitrilGloves.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
+      "title": "Nitrile gloves xl",
       "price": 600,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     },
     {
       "id": "23",
@@ -1478,11 +2028,36 @@
           "img1": "../src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png"
         }
       ],
+      "previewGaleryDesk": [
+        {
+          "id": 1,
+          "img1": "../src/assets/img/cardsImg/ForeverCartridgeGripErgo30mmFieryRed.png"
+        },
+        {
+          "id": 2,
+          "img1": "../src/assets/img/galleryDesk/1.png"
+        },
+        {
+          "id": 3,
+          "img1": "../src/assets/img/galleryDesk/2.png"
+        },
+        {
+          "id": 4,
+          "img1": "../src/assets/img/galleryDesk/3.png"
+        }
+      ],
       "title": "Forever Cartridge Grip Ergo 30 mm fiery red",
       "price": 2231,
       "sales": false,
-      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams",
-      "descriptionSecond": ""
+      "descriptionFirst": "Viper - the machine is assembled with a powerful motor; the frame of this model is made of durable and lightweight aluminum alloy. Due to this, the weight of this machine is only 120 grams.",
+      "descriptionSecond": "This model is equipped with an adjustable eccentric. To adjust the needle stroke you need, simply move your holder in the clamp, forward or backward. Also, the eccentric is designed in such a way that there is no centrifugal thrust on the machine, as a result of which there is no vibration during operation. There is a small and convenient pin at the bottom for attaching the elastic band.",
+      "descriptionThird": "The diameter of the clamping bolt is larger than on analogues, so that the holder is fixed without problems or extra effort. This model easily pushes any needles and cartridges.",
+      "descriptionFourth": "All necessary recommendations are provided on the instructions supplied with the machine, included in the box with the product.",
+      "descriptionFifth": "The machine is suitable for both tattoos and make-up.",
+      "needleStroke": "Universal",
+      "OperatingVoltage": "Up to 12 V",
+      "Connector": "RCA",
+      "Purpose": "Universal"
     }
   ]
 }

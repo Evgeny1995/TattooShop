@@ -1,0 +1,34 @@
+.gallery_container {
+   display: flex;
+   gap: 20px;
+}
+.gallery_small_img {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.gallery_big_img {
+}
+.small_img {
+   width: 83px;
+   height: 93px;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+
+   &:hover {
+      border: 1px solid #bb8c5f;
+   }
+}
+
+.hover {
+   border: 1px solid #bb8c5f;
+}
+
+.preview_img {
+   width: 470px;
+   height: 404px;
+   margin: 0;
+   padding: 0;
+   object-fit: cover;
+}

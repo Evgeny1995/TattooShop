@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import styles from './AboutGoodInCartDetail.module.scss';
 import clsx from 'clsx';
 import { TypeList1 } from '../../../types/list.ts';
-import { index } from '../../../store';
+import CardDetailDescription from '../../Atoms/CardDetailDescription/CardDetailDescription.tsx';
+import DescriptionInAboutGood from '../../Atoms/DescriptionInAboutGood/DescriptionInAboutGood.tsx';
+import CardDetailHaracteristics from '../../Atoms/CardDetailHaracteristics/CardDetailHaracteristics.tsx';
 
 enum Categories {
    Description = 'Description',
@@ -18,17 +20,17 @@ const AboutGoodInCartDetail: React.FC<props> = ({ goodDescription }) => {
    const [activeCategory, setActiveCategory] = useState<Categories>(
       Categories.Description,
    );
-   console.log(goodDescription);
-   // const goodsSelector =
-   //    activeСategory === Categories.Description
-   //       ? goodDescription.bestsellers
-   //       : activeTab === Tab.Popular
-   //       ? goods.popular
-   //       : activeTab === Tab.NewArrivals
-   //       ? goods.new
-   //       : activeTab === Tab.Sales
-   //       ? goods.sale
-   //       : goods.bestsellers;
+
+   const descriptionSelector =
+      activeCategory === Categories.Description ? (
+         <DescriptionInAboutGood goodDescription={goodDescription} />
+      ) : activeCategory === Categories.Characteristics ? (
+         <CardDetailHaracteristics goodDescription={goodDescription} />
+      ) : activeCategory === Categories.Reviews ? (
+         <p className={styles.reviews}>Reviews are temporarily unavailable.</p>
+      ) : (
+         (goodDescription.descriptionFirst, goodDescription.descriptionSecond)
+      );
 
    return (
       <div className={styles.about_good_wrap}>
@@ -48,6 +50,9 @@ const AboutGoodInCartDetail: React.FC<props> = ({ goodDescription }) => {
                </li>
             ))}
          </ul>
+         <div>
+            <CardDetailDescription goodDescription={descriptionSelector} />
+         </div>
       </div>
    );
 };
