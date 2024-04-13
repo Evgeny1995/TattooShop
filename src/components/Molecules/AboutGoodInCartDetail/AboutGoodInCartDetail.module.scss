@@ -24,8 +24,8 @@
 .category_btn {
    font-family: 'Jost', sans-serif;
    font-weight: 700;
-   font-size: 25px;
-   line-height: 29px;
+   font-size: 17px;
+   line-height: 20px;
    color: #3e424b;
    outline: none;
    border: none;
@@ -57,5 +57,31 @@
       height: 10px;
       background-color: #bb8c5f;
       transform: rotate(45deg);
+   }
+}
+
+.reviews {
+   text-align: center;
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 21px;
+   color: #3e424b;
+}
+
+@media (min-width: 750px) {
+   .list {
+      padding-left: 3px;
+   }
+}
+
+@media (min-width: 768px) {
+   .category_btn {
+      font-size: 25px;
+      line-height: 29px;
+   }
+
+   .reviews {
+      font-size: 17px;
    }
 }

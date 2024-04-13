@@ -11,6 +11,9 @@ import './cardDetail.scss';
 import CardDetailNav from '../../Atoms/CardDetailNav/CardDetailNav.tsx';
 import GoodsCounter from '../../Molecules/GoodsCounter/GoodsCounter.tsx';
 import AboutGoodInCartDetail from '../../Molecules/AboutGoodInCartDetail/AboutGoodInCartDetail.tsx';
+import DescriptionInAboutGood from '../../Atoms/DescriptionInAboutGood/DescriptionInAboutGood.tsx';
+import CardDetailHaracteristics from '../../Atoms/CardDetailHaracteristics/CardDetailHaracteristics.tsx';
+import CardDetailGallery from '../../Molecules/CardDetailGallery/CardDetailGallery.tsx';
 
 const CardDetail: React.FC = () => {
    const { id } = useParams();
@@ -74,15 +77,26 @@ const CardDetail: React.FC = () => {
                            <div className="swiper-pagination-mob-tab-cardDetail"></div>
                         </Swiper>
                      </div>
+                     <div className={styles.card_detail_desk_galery_container}>
+                        <CardDetailGallery galleryImg={item} />
+                     </div>
                      <div className={styles.add_goods_description}>
                         <div className={styles.first_description}>
                            <Link className={styles.works_done} to="#">
                               Works done with this machine
                            </Link>
+                           <h2 className={styles.card_title_desk}>
+                              {item.title}
+                           </h2>
+                           <p className={styles.price_desk}>{item.price} ₽</p>
+
                            <p className={styles.description_first}>
                               Description: <br />
                               {item.descriptionFirst}
                            </p>
+                           <Link className={styles.works_done_desk} to="#">
+                              Works done with this machine
+                           </Link>
                         </div>
                         <div className={styles.logic}>
                            <p className={styles.price}>{item.price} ₽</p>
@@ -93,6 +107,11 @@ const CardDetail: React.FC = () => {
                               count={count}
                               id={id}
                            />
+                           <div className={styles.btn_container_desk}>
+                              <Link to={'/basket'} className={styles.btn_style}>
+                                 Add to basket
+                              </Link>
+                           </div>
                         </div>
                         <div className={styles.btn_container}>
                            <Link to={'/basket'} className={styles.btn_style}>
@@ -101,7 +120,23 @@ const CardDetail: React.FC = () => {
                         </div>
                      </div>
                   </div>
-                  <AboutGoodInCartDetail goodDescription={item} />
+                  <div className={styles.about_good_cart_detail}>
+                     <AboutGoodInCartDetail goodDescription={item} />
+                  </div>
+                  <div className={styles.about_good_cart_detail__desk}>
+                     <div className={styles.description_container}>
+                        <h4 className={styles.description_title}>
+                           Description
+                        </h4>
+                        <DescriptionInAboutGood goodDescription={item} />
+                     </div>
+                     <div className={styles.haracteristics_container}>
+                        <h4 className={styles.description_title}>
+                           Haracteristics
+                        </h4>
+                        <CardDetailHaracteristics goodDescription={item} />
+                     </div>
+                  </div>
                </div>
             ))}
          </div>
