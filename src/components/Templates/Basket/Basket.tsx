@@ -20,6 +20,23 @@ const Basket: React.FC = () => {
             <h2 className={styles.basket_title}>Basket</h2>
 
             <div className={styles.goods_in_basket}>
+               <div className={styles.goods_table_description_container_wrap}>
+                  <div className={styles.goods_table_description_container}>
+                     <div className={styles.goods_table_description}>
+                        <p className={styles.goods_table_text}>Name</p>
+                     </div>
+                     <div className={styles.goods_table_description}>
+                        <p className={styles.goods_table_text}>Price</p>
+                     </div>
+                     <div className={styles.goods_table_description}>
+                        <p className={styles.goods_table_text}>Quantity</p>
+                     </div>
+                     <div className={styles.goods_table_description}>
+                        <p className={styles.goods_table_text}>Cost</p>
+                     </div>
+                  </div>
+               </div>
+
                <ul className={styles.basket_list}>
                   {products ? (
                      products.map((product) => (
