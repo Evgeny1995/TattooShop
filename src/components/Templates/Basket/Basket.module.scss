@@ -11,20 +11,19 @@
    font-size: 25px;
    line-height: 25px;
    color: #3e424b;
-}
-.goods_in_basket {
+   max-width: 804px;
+   margin: 0 auto;
 }
 
-.basket_list {
-}
 .item {
-   margin: 20px 0;
+   margin: 20px auto;
    display: flex;
    flex-direction: column;
    padding-bottom: 20px;
    border-bottom: 2px solid #d0d0d0;
    position: relative;
    text-align: center;
+   max-width: 400px;
 
    &:before {
       content: '';
@@ -63,7 +62,7 @@
 .img_goods {
    width: 80px;
    height: 80px;
-   object-fit: cover;
+   object-fit: contain;
 }
 
 .good_description {
@@ -79,6 +78,7 @@
    font-size: 15px;
    line-height: 21px;
    color: #3e424b;
+   width: 140px;
 }
 .good_prise_for_unit {
    white-space: nowrap;
@@ -87,6 +87,7 @@
    font-size: 15px;
    line-height: 21px;
    color: #636b78;
+   width: 92px;
 }
 .btn_del_goods {
    border: none;
@@ -102,7 +103,7 @@
 }
 
 .basket_list_second_block {
-   max-width: 325px;
+   max-width: 399px;
    margin-top: 20px;
    display: flex;
    justify-content: space-between;
@@ -121,18 +122,66 @@
    color: #3e424b;
 }
 
+.goods_table_description_container_wrap {
+   display: none;
+}
+
 @media (min-width: 728px) {
+   .basket_title {
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 20px;
+   }
+
    .basket_list {
       margin: 0 auto;
       min-width: 688px;
       max-width: 804px;
+      padding-top: 20px;
+      position: relative;
+      border-top: 1px solid #d0d0d0;
+
+      &:before {
+         content: '';
+         display: block;
+         position: absolute;
+         top: -3px;
+         left: 0;
+         width: 5px;
+         height: 6px;
+         background: url('./../../../assets/svg/greyTriangleForTheLine.svg')
+            no-repeat center center;
+      }
+
+      &:after {
+         content: '';
+         display: block;
+         position: absolute;
+         top: -3px;
+         right: 0;
+         width: 5px;
+         height: 6px;
+         transform: rotate(180deg);
+         background: url('./../../../assets/svg/greyTriangleForTheLine.svg')
+            no-repeat center center;
+      }
    }
 
    .item {
       min-width: 688px;
+      max-width: 804px;
       flex-direction: row;
       justify-content: space-between;
       gap: 50px;
+      border: none;
+
+      &:before {
+         display: none;
+      }
+
+      &:after {
+         display: none;
+      }
    }
 
    .img_goods {
@@ -177,6 +226,118 @@
       width: 325px;
       margin: 0;
       align-items: center;
+   }
+
+   .goods_table_description_container_wrap {
+      display: block;
+      max-width: 804px;
+      margin: 0 auto 15px auto;
+   }
+
+   .goods_table_description_container {
+      display: flex;
+   }
+
+   .goods_table_text {
+      font-family: 'Jost', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 21px;
+      color: #3e424b;
+   }
+
+   .goods_table_description:nth-child(2) {
+      margin-left: 39.4%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 21%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 5.2%;
+   }
+}
+
+@media (min-width: 750px) {
+   .goods_table_description:nth-child(2) {
+      margin-left: 38.3%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 19.8%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 7.2%;
+   }
+}
+@media (min-width: 765px) {
+   .goods_table_description:nth-child(2) {
+      margin-left: 37.5%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 19.8%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 7.6%;
+   }
+}
+@media (min-width: 775px) {
+   .goods_table_description:nth-child(2) {
+      margin-left: 37%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 19%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 8.8%;
+   }
+}
+
+@media (min-width: 790px) {
+   .goods_table_description:nth-child(2) {
+      margin-left: 36.2%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 19%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 9.2%;
+   }
+}
+
+@media (min-width: 810px) {
+   .goods_table_description:nth-child(2) {
+      margin-left: 35.3%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 18.5%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 10.2%;
+   }
+}
+
+@media (min-width: 845px) {
+   .goods_table_description:nth-child(2) {
+      margin-left: 33.9%;
+   }
+
+   .goods_table_description:nth-child(3) {
+      margin-left: 21.2%;
+   }
+
+   .goods_table_description:nth-child(4) {
+      margin-left: 10.2%;
    }
 }
 
