@@ -1,0 +1,26 @@
+.services_content {
+   max-width: 1216px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px 0 120px 0;
+}
+
+.title {
+   font-family: 'Forum', sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 25px;
+   color: #3e424b;
+   max-width: 1183px;
+   padding: 0 20px;
+   margin: 20px auto 0 auto;
+}
+
+@media (min-width: 1920px) {
+   .title {
+      padding: 0;
+      max-width: 1216px;
+   }
+}

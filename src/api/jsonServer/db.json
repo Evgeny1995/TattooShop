@@ -2093,5 +2093,36 @@
       "htmlFor": "postOffice",
       "question": "Delivery cost is calculated when the manager calls"
     }
+  ],
+  "servicesListData": [
+    {
+      "id": 1,
+      "title": "Express shipment",
+      "img": "../src/assets/img/services/1.png",
+      "description": "Your purchases will be packed and shipped on the day of booking. As soon as the order is confirmed by the manager’s call, our employee will immediately package and send your order. Use this service - it will save you 1 day of waiting. This Service is especially relevant if the order is made closer to the weekend.",
+      "servicesPrice": "Service cost: 250 ₽"
+    },
+    {
+      "id": 2,
+      "title": "Postal guarantee",
+      "img": "../src/assets/img/services/2.png",
+      "description": "Additional protection of your shipment against accidental damage and damage during delivery. If something happened to your purchases during the delivery - something was damaged, broken or spilled - we will compensate you fully. The postal guarantee is your absolute confidence that the order will be delivered safely.",
+      "servicesPrice": "Service cost: 4% of the order amount"
+    },
+    {
+      "id": 3,
+      "title": "Extended warranty",
+      "img": "../src/assets/img/services/3.png",
+      "description": "Protect your purchases from loss and damage! If you choose an extended postal guarantee, we will reimburse you the full value of the purchased goods in case of complete loss of the parcel or damage of the goods during the transportation of the parcel by Russian mail or transport company. In addition, you receive our 2 year warranty for all goods from your order.",
+      "servicesPrice": "Service cost: 10% of the order amount"
+    },
+    {
+      "id": 4,
+      "title": "Gift decoration",
+      "img": "../src/assets/img/services/4.png",
+      "description": "The best solution for gift. We will beautifully pack your order, shipment will be carried out by courier company to you or to other addressee, at your discretion. Shipment details are agreed upon when the manager calls to confirm the order.",
+      "servicesPrice": "Service cost: 500 ₽"
+    }
   ]
+
 }

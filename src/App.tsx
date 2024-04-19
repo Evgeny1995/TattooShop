@@ -8,6 +8,7 @@ import NotFound from './components/Templates/NotFound/NotFound.tsx';
 import Help from './components/Templates/Help/Help.tsx';
 import CardDetail from './components/Templates/cardDetail/cardDetail.tsx';
 import Basket from './components/Templates/Basket/Basket.tsx';
+import Services from './components/Templates/Services/Services.tsx';
 
 const App: React.FC = () => {
    return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
             <Route path="*" element={<NotFound />} />
             <Route path="/card/:id" element={<CardDetail />} />
             <Route path="/basket" element={<Basket />} />
+            <Route path="/services" element={<Services />} />
          </Routes>
       </div>
    );

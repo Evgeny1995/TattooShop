@@ -4,8 +4,12 @@ import PaymentRadioBtnGroup from '../PaymentRadioBtnGroup/PaymentRadioBtnGroup.t
 import DeliveryRadioBtnGroup from '../DeliveryRadioBtnGroup/DeliveryRadioBtnGroup.tsx';
 import ButtonOne from '../../Atoms/ButtonOne/ButtonOne.tsx';
 import { CartItem } from '../../../store/cart/types.ts';
-import logotype from '../../Atoms/Logotype/Logotype.tsx';
 import clsx from 'clsx';
+import {
+   totalPrice,
+   totalUnitsCount,
+} from '../../../hooks/basketPaymentHooks.ts';
+import { Link } from 'react-router-dom';
 
 interface props {
    products: CartItem[];
@@ -13,25 +17,8 @@ interface props {
 
 const BasketPayment: React.FC<props> = ({ products }) => {
    const [checkbox, setCheckbox] = useState<boolean>(true);
-   const totalUnitsCount = (): number | undefined => {
-      const count = products.map((i) => i.count);
-      if (count.length === 0) {
-         return;
-      }
-      return count.reduce(
-         (accumulator, currentValue) => accumulator + currentValue,
-         0,
-      );
-   };
-
-   const totalPrice = () => {
-      const price = products.map((i) => i.count * i.product.price);
-      return price.reduce(
-         (accumulator, currentValue) => accumulator + currentValue,
-         0,
-      );
-   };
-
+   const TotalCount = totalUnitsCount(products);
+   const TotalPrice = totalPrice(products);
    return (
       <div className={styles.payment_data}>
          <div className={styles.payment_data_position}>
@@ -57,7 +44,7 @@ const BasketPayment: React.FC<props> = ({ products }) => {
                         styles.marg_right,
                      )}
                   >
-                     {totalUnitsCount() == undefined ? 0 : totalUnitsCount()}
+                     {TotalCount == undefined ? 0 : TotalCount}
                   </p>
                </div>
                <div className={styles.payment_result_discount}>
@@ -75,7 +62,7 @@ const BasketPayment: React.FC<props> = ({ products }) => {
                      Total:
                   </p>
                   <p className={styles.payment_result_value_total_count}>
-                     {totalPrice()} ₽
+                     {TotalPrice} ₽
                   </p>
                </div>
                <div className={styles.promo_code_inp_container}>
@@ -100,12 +87,15 @@ const BasketPayment: React.FC<props> = ({ products }) => {
          </div>
 
          <div className={styles.form_submit_btn_block}>
-            <ButtonOne
-               title={'Checkout'}
-               className={styles.btn_view_catalog}
-               btnStyle={styles.btn_style}
-               type={'submit'}
-            />
+            {/*<ButtonOne*/}
+            {/*   title={'Checkout'}*/}
+            {/*   className={styles.btn_view_catalog}*/}
+            {/*   btnStyle={styles.btn_style}*/}
+            {/*   type={'submit'}*/}
+            {/*/>*/}
+            <Link className={styles.btn_style} to={'/services'}>
+               Checkout
+            </Link>
             <div className={styles.public_offer_content}>
                <div className={styles.checkbox_conteiner}>
                   <input
@@ -124,16 +114,15 @@ const BasketPayment: React.FC<props> = ({ products }) => {
                   </label>
                </div>
                <div className={styles.public_offer_container}>
-                  <p className={styles.public_offer_text}>
-                     <pre>I agree with </pre>
-                  </p>
+                  <p className={styles.public_offer_text}>I agree with</p>
                   <a className={styles.public_offer_link} href="#">
                      the public offer
                   </a>
-                  <p className={styles.public_offer_text}>
-                     <pre>and </pre>
-                  </p>
-                  <a className={styles.public_offer_link} href="#">
+                  <p className={styles.public_offer_text}>and</p>
+                  <a
+                     className={clsx(styles.public_offer_link, styles.margin)}
+                     href="#"
+                  >
                      processing of personal data
                   </a>
                </div>
