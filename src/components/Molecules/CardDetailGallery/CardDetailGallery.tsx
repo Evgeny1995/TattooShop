@@ -9,9 +9,9 @@ interface props {
 
 const CardDetailGallery: React.FC<props> = ({ galleryImg }) => {
    const [previewGalleryImg, setPreviewGalleryImg] = useState(
-      galleryImg.previewGaleryDesk[0].img1,
+      galleryImg.previewGaleryDesk?.[0].img1,
    );
-   console.log(galleryImg.previewGaleryDesk);
+
    return (
       <div className={styles.gallery_container}>
          <div className={styles.gallery_small_img}>

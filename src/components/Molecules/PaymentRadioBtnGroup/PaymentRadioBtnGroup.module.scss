@@ -1,0 +1,66 @@
+.payment_radio_list {
+   display: flex;
+   gap: 15px;
+   flex-direction: column;
+   margin-bottom: 30px;
+   z-index: 1;
+   padding-left: 20px;
+}
+.payment_list_item {
+   display: flex;
+   margin: 0;
+   position: relative;
+   z-index: 1;
+}
+.radio_inp {
+   display: none;
+}
+.radio_label {
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 25px;
+   color: #3e424b;
+   padding-left: 30px;
+   position: relative;
+   z-index: 1;
+
+   &:hover {
+      color: #bb8c5f;
+   }
+}
+.radio_icon {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border: 2px solid #bb8c5f;
+   border-radius: 100%;
+   left: 0;
+   top: 2px;
+}
+
+.radio_inp:checked + .radio_label .radio_icon:before {
+   content: '';
+   position: absolute;
+   top: 3px;
+   left: 3px;
+   width: 10px;
+   height: 10px;
+   background-color: #bb8c5f;
+   border-radius: 100%;
+}
+
+.radio_inp:checked + .radio_label {
+   color: #bb8c5f;
+}
+
+.question_container {
+   z-index: 11111111111;
+}
+
+@media (min-width: 1920px) {
+   .payment_radio_list {
+      padding-left: 40px;
+      margin-bottom: 40px;
+   }
+}
