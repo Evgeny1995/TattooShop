@@ -49,3 +49,10 @@ export type TypeList3 = {
    id: number;
    img1: string;
 };
+
+export type RadioBtnOption = {
+   id: number;
+   value: string;
+   htmlFor: string;
+   question: string;
+};

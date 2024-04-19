@@ -2059,5 +2059,39 @@
       "Connector": "RCA",
       "Purpose": "Universal"
     }
+  ],
+  "paymentRadioBtnOption": [
+    {
+      "id": 1,
+      "value": "Online on the site",
+      "htmlFor": "paymentOnline",
+      "question":"Payment for goods in cash upon receipt at a Russian Post office, an additional fee of 2% of the payment amount is paid"
+    },
+    {
+      "id": 2,
+      "value": "Cash on delivery",
+      "htmlFor": "cashDelivery",
+      "question": "Payment for goods in cash upon receipt at a Russian Post office, an additional fee of 2% of the payment amount is paid"
+    },
+    {
+      "id": 3,
+      "value": "Cashless payments",
+      "htmlFor": "Cashless",
+      "question": "Payment for goods in cash upon receipt at a Russian Post office, an additional fee of 2% of the payment amount is paid"
+    }
+    ],
+  "deliveryRadioBtnOption": [
+    {
+      "id": 1,
+      "value": "Courier service",
+      "htmlFor": "courierService",
+      "question":"Delivery cost is calculated when the manager calls"
+    },
+    {
+      "id": 2,
+      "value": "Post office",
+      "htmlFor": "postOffice",
+      "question": "Delivery cost is calculated when the manager calls"
+    }
   ]
 }

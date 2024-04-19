@@ -3,7 +3,11 @@
 }
 
 .basket_content_wrap {
-   padding: 0 20px 0 20px;
+   padding: 0;
+}
+
+.goods_in_basket {
+   padding: 0;
 }
 .basket_title {
    font-family: 'Forum', sans-serif;
@@ -13,6 +17,7 @@
    color: #3e424b;
    max-width: 804px;
    margin: 0 auto;
+   padding: 0 20px;
 }
 
 .item {
@@ -23,7 +28,7 @@
    border-bottom: 2px solid #d0d0d0;
    position: relative;
    text-align: center;
-   max-width: 400px;
+   max-width: 804px;
 
    &:before {
       content: '';
@@ -56,7 +61,10 @@
 .basket_list_firs_block {
    display: flex;
    justify-content: space-between;
-   max-width: 403px;
+}
+
+.basket_list {
+   padding: 20px 20px 0 20px;
 }
 
 .img_goods {
@@ -103,7 +111,6 @@
 }
 
 .basket_list_second_block {
-   max-width: 399px;
    margin-top: 20px;
    display: flex;
    justify-content: space-between;
@@ -124,6 +131,11 @@
 
 .goods_table_description_container_wrap {
    display: none;
+}
+
+.basket_payment_position {
+   max-width: 844px;
+   margin: 0 auto;
 }
 
 @media (min-width: 728px) {
@@ -232,6 +244,7 @@
       display: block;
       max-width: 804px;
       margin: 0 auto 15px auto;
+      padding: 0 20px;
    }
 
    .goods_table_description_container {
@@ -285,6 +298,14 @@
       margin-left: 7.6%;
    }
 }
+
+@media (min-width: 768px) {
+   .basket_list {
+      margin: 0 auto;
+      min-width: 728px;
+      max-width: 804px;
+   }
+}
 @media (min-width: 775px) {
    .goods_table_description:nth-child(2) {
       margin-left: 37%;
@@ -326,8 +347,22 @@
       margin-left: 10.2%;
    }
 }
-
+@media (min-width: 820px) {
+   .basket_list {
+      padding: 0;
+   }
+   .goods_table_description_container_wrap {
+      padding: 0;
+   }
+}
 @media (min-width: 845px) {
+   .basket_list {
+      padding: 0;
+   }
+
+   .basket_title {
+      padding: 0;
+   }
    .goods_table_description:nth-child(2) {
       margin-left: 33.9%;
    }
@@ -341,10 +376,24 @@
    }
 }
 
-@media (min-width: 768px) {
-   .basket_list {
+@media (min-width: 1920px) {
+   .basket_content_wrap {
+      display: flex;
+      max-width: 1216px;
       margin: 0 auto;
-      min-width: 728px;
-      max-width: 804px;
+      padding: 0;
+   }
+
+   .components_desk_wrap {
+      display: flex;
+      justify-content: space-between;
+      width: 1216px;
+   }
+
+   .goods_in_basket {
+      padding: 0;
+   }
+   .basket_title {
+      margin: 30px auto 40px 0;
    }
 }
