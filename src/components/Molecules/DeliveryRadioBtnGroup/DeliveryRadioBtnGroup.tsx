@@ -13,7 +13,7 @@ const DeliveryRadioBtnGroup: React.FC = () => {
    useEffect(() => {
       getDeliveryRadioBtnDataList();
    }, []);
-   const [value, setValue] = useState<string | null>(null);
+   const [value, setValue] = useState<string | null>('Courier service');
 
    return (
       <ul className={styles.payment_radio_list}>

@@ -3,7 +3,7 @@
 }
 
 .basket_content_wrap {
-   padding: 0;
+   padding-bottom: 120px;
 }
 
 .goods_in_basket {
@@ -305,6 +305,10 @@
       min-width: 728px;
       max-width: 804px;
    }
+
+   .basket_content_wrap {
+      padding-bottom: 180px;
+   }
 }
 @media (min-width: 775px) {
    .goods_table_description:nth-child(2) {
@@ -381,7 +385,7 @@
       display: flex;
       max-width: 1216px;
       margin: 0 auto;
-      padding: 0;
+      padding-bottom: 160px;
    }
 
    .components_desk_wrap {

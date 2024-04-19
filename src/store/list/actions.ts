@@ -212,6 +212,20 @@ export const getDeliveryRadioBtnDataList = () => {
    };
 };
 
+export const getServicesListData = () => {
+   return async (dispatch: Dispatch<listActionType>) => {
+      try {
+         const response = await axiosApi.get(`/servicesListData`);
+         dispatch({
+            type: ListActionType.SET_SERVICES_LIST_DATA,
+            payload: response.data,
+         });
+      } catch (e) {
+         console.error(e);
+      }
+   };
+};
+
 // Action Creator
 // Action
 // Middleware

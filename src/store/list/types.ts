@@ -16,6 +16,7 @@ export interface ListState {
    promoCodesDataList?: TypeList1[];
    paymentRadioBtnDataList?: RadioBtnOption[];
    deliveryRadioBtnDataList?: RadioBtnOption[];
+   servicesListData?: TypeList1[];
 }
 export enum ListActionType {
    SET_CATALOG_NESTED_LIST = 'SET_CATALOG_NESTED_LIST',
@@ -33,6 +34,7 @@ export enum ListActionType {
    SET_PROMO_CODES_DATA_LIST = 'SET_PROMO_CODES_DATA_LIST',
    SET_PAYMENT_RADIO_BTN_DATA_LIST = 'SET_PAYMENT_RADIO_BTN_DATA_LIST',
    SET_DELIVERY_RADIO_BTN_DATA_LIST = 'SET_DELIVERY_RADIO_BTN_DATA_LIST',
+   SET_SERVICES_LIST_DATA = 'SET_SERVICES_LIST_DATA',
 }
 interface SetCatalogNestedList {
    type: ListActionType.SET_CATALOG_NESTED_LIST;
@@ -109,6 +111,11 @@ interface SetDeliveryRadioBtnListAction {
    payload: RadioBtnOption[];
 }
 
+interface SetServicesListDataAction {
+   type: ListActionType.SET_SERVICES_LIST_DATA;
+   payload: TypeList1[];
+}
+
 export type listActionType =
    | SetCatalogNestedList
    | SetCatalogByBrandsListAction
@@ -124,4 +131,5 @@ export type listActionType =
    | SetHomeReviewArrDataListAction
    | SetPromoCodesDataListAction
    | SetPaymentRadioBtnListAction
-   | SetDeliveryRadioBtnListAction;
+   | SetDeliveryRadioBtnListAction
+   | SetServicesListDataAction;

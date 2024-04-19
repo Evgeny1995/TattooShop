@@ -11,9 +11,15 @@ import Logotype from '../../Atoms/Logotype/Logotype.tsx';
 import DeskHeaderCatalog from '../../Molecules/DeskHeaderCatalog/DeskHeaderCatalog.tsx';
 import DeskHeaderAnotherList from '../../Molecules/DeskHeaderAnotherList/DeskHeaderAnotherList.tsx';
 import { Link } from 'react-router-dom';
+import { useTypedSelector } from '../../../hooks/useTypedSelector.ts';
+import {
+   totalPrice,
+   totalUnitsCount,
+} from '../../../hooks/basketPaymentHooks.ts';
 
 const Header: React.FC = () => {
    const [menuToogleActive, setMenuToogleActive] = useState<boolean>(true);
+   const { products } = useTypedSelector((s) => s.cart);
 
    return (
       <header className={styles.header__wrap}>
@@ -53,7 +59,12 @@ const Header: React.FC = () => {
                <div className={styles.col_one__setings_block__position}>
                   <div className={styles.basket}>
                      <Link to={'/basket'} className={styles.basket_text}>
-                        37 280 ₽
+                        {totalPrice(products)} ₽
+                        <span className={styles.sup_units_count}>
+                           {totalUnitsCount(products) == undefined
+                              ? 0
+                              : totalUnitsCount(products)}
+                        </span>
                      </Link>
                   </div>
                   <div className={styles.header_favorites}>

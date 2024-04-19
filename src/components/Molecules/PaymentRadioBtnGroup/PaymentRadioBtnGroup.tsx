@@ -13,8 +13,9 @@ const PaymentRadioBtnGroup: React.FC = () => {
    useEffect(() => {
       getPaymentRadioBtnDataList();
    }, []);
-   const [value, setValue] = useState<string | null>(null);
+   const [value, setValue] = useState<string | undefined>('Online on the site');
 
+   // console.log(value);
    return (
       <ul className={styles.payment_radio_list}>
          {paymentRadioBtnDataList?.map((item) => (

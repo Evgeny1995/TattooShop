@@ -16,6 +16,7 @@ const initialState: ListState = {
    promoCodesDataList: [],
    paymentRadioBtnDataList: [],
    deliveryRadioBtnDataList: [],
+   servicesListData: [],
 };
 
 export const listReducer = (
@@ -67,6 +68,9 @@ export const listReducer = (
 
       case ListActionType.SET_DELIVERY_RADIO_BTN_DATA_LIST:
          return { ...state, deliveryRadioBtnDataList: action.payload };
+
+      case ListActionType.SET_SERVICES_LIST_DATA:
+         return { ...state, servicesListData: action.payload };
 
       default:
          return state;

@@ -21,6 +21,7 @@ export type TypeList1 = {
    text3?: string;
    categories?: string;
    type?: string;
+   servicesPrice?: string;
    manufacturer?: string;
    deliberately?: string;
    rating: number;
